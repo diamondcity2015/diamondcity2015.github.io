@@ -17,4 +17,6 @@ h2,p,ul {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-size:1em;
+	line-height:1.5em;
 }
