@@ -8,3 +8,6 @@ body 	{
 h1	{
 	text-align:	center;
 }
+h2,p {
+	font-family:	serif;
+}
