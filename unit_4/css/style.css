@@ -2,6 +2,7 @@ body 	{
 	margin-top:150px;
 	background-image: url("images/sunset.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 h1	{
