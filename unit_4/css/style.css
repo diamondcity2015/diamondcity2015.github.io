@@ -27,7 +27,7 @@ nav	{
 .navlinks	{
 	color: #16fdff;
 }	
-#social nav {
+#social li {
 	display:inline;
 	padding-left:	50px;
 	padding-right:	50px;
