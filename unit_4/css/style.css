@@ -17,8 +17,9 @@ h2 {
 	font-size:1em;
 	line-height:1.5em;
 }
-nav	{
-
+ul	{
+	text-align:center;
+	color: #ffffff;
 }
 .navlinks	{
 	color: #16fdff;
@@ -32,4 +33,3 @@ nav	{
 
 
 
-}
