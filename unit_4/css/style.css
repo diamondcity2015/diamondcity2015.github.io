@@ -20,6 +20,9 @@ h2,ul {
 nav	{
 	text-align: center;
 	color:	#ffffff;
+	display:	inline;
+	padding-left:50px;
+	padding-right:50px;
 }
 .navlinks	{
 	color: #16fdff;
