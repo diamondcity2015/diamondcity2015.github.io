@@ -26,6 +26,8 @@ nav {
 ul	{
 	text-align: center;
 	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .navlinks	{
 	color: #16fdff;
