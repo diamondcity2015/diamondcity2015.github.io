@@ -26,4 +26,14 @@ nav	{
 }
 .navlinks	{
 	color: #16fdff;
+}	
+#social nav {
+	display:inline;
+	padding-left:	50px;
+	padding-right:	50px;
+}
+
+
+
+
 }
