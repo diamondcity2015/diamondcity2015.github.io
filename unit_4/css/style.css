@@ -23,6 +23,9 @@ nav	{
 .navlinks	{
 	color: #16fdff;
 }	
+#social	{
+	list-style-type:none;
+}
 #social li {
 	display:inline;
 	padding-left:	50px;
