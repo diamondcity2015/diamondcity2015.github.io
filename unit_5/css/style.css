@@ -28,6 +28,9 @@ ul	{
 	color: #ffffff;
 	padding-top: 30px;
 	padding-bottom: 30px;
+.floatright{
+	float:right;
+}	
 }
 .navlinks	{
 	color: #16fdff;
