@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+body{
+
+}
+footer{
+
+}
+header{
+
+}
+nav {
+	text-align:center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	letter-spacing: 4px;
+main{
+
+}
+h1{
+
+}	
+h2{
+
+}
+ul	{
+	text-align: center;
+	color: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navlinks	{
+	color: #16fdff;
+	font-family: 'Noto Serif', serif;
+	text-align:	center;
+}	
