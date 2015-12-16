@@ -23,8 +23,10 @@ div{
 }
 footer{
 	background-color: FF957E;
+	border: 1px black solid;
 	color: #16fdff;
 	font-family: 'Noto Serif', serif;
+	padding: 20px;
 	text-align:	center;
 }
 header{
