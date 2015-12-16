@@ -31,6 +31,7 @@ div{
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
+	color: #16fdff;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
 	padding: 20px;
@@ -46,7 +47,7 @@ a:hover{
 	color: #3AFF3C;
 }
 a:visited{
-	color: #1B6F99;
+	color: #F5391E;
 }
 img{
 	border: 1px black solid;
