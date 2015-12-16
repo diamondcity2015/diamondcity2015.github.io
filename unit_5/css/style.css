@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 article{
 	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 }
 aside{
 	background-color: #FFC675;
