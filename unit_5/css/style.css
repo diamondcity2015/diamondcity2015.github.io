@@ -18,7 +18,7 @@ div{
 	max-height: 15px;
 	margin:0 o 10px 10px;
 	border: 1px solid #666;
-	padding: 2px;
+	padding: 5px;
 	max-width: 15px;
 }
 footer{
@@ -31,15 +31,16 @@ footer{
 }
 header{
 	background-color: #FFED74;
+	border: 1px black solid
+	padding: 20px;
 }
 nav {
 	background-color: #E8C66A;
-	text-align:center;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	letter-spacing: 4px;
+	border: 1px black solid;
 	color: #16fdff;
 	font-family: 'Noto Serif', serif;
+	letter-spacing: 4px;
+	padding: 20px;
 	text-align:	center;
 main {
 
