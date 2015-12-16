@@ -36,6 +36,11 @@ header{
 	padding: 20px;
 	text-align: center;
 }
+img{
+	display: block;
+	margin: auto;
+	width: 75px;
+}
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
