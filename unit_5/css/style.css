@@ -1,7 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+aside{
+
+}
 body{
 
+}
+div{
+	float:right;
+	margin:0 o 10px 10px;
+	border: 1px solid #666;
+	padding: 2px;
+	width: 50px;
 }
 footer{
 
@@ -32,6 +42,7 @@ ul	{
 	float:right;
 	margin:0 o 10px 10px;
 	border: 1px solid #666;
+	padding: 2px;
 	width: 50px;
 }	
 }
