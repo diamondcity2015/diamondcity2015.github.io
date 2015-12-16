@@ -42,6 +42,12 @@ header{
 	padding: 20px;
 	text-align: center;
 }
+a:hover{
+	color: #3AFF3C;
+}
+a:visited{
+	color: #1B6F99;
+}
 img{
 	border: 1px black solid;
 	display: block;
@@ -58,6 +64,8 @@ nav {
 	letter-spacing: 4px;
 	padding: 20px;
 	text-align:	center;
+}
+
 }
 main {
 	background-color: #FFE2B8;
