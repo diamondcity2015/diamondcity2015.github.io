@@ -8,11 +8,11 @@ body{
 }
 div{
 	float:right;
-	max-height: 30px;
+	max-height: 20px;
 	margin:0 o 10px 10px;
 	border: 1px solid #666;
 	padding: 2px;
-	max-width: 30px;
+	max-width: 20px;
 }
 footer{
 
