@@ -31,6 +31,7 @@ ul	{
 .floatright{
 	float:right;
 	margin:0 o 10px 10px;
+	border: 1px solid #666;
 }	
 }
 .navlinks	{
