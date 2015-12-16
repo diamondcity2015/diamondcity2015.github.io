@@ -12,7 +12,8 @@ div{
 	margin:0 o 10px 10px;
 	border: 1px solid #666;
 	padding: 2px;
-	width: 100%;
+	max-width: 120px;
+	width: 50%;
 }
 footer{
 
