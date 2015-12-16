@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+article{
+	background-color: #E89C6C;
+}
 aside{
-
+	background-color: #FFC675;
 }
 body{
 
