@@ -43,6 +43,7 @@ header{
 	text-align: center;
 }
 img{
+	border: 1px black solid;
 	display: block;
 	height: 295px;
 	margin: auto;
