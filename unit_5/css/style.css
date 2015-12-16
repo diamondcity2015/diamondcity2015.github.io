@@ -7,6 +7,8 @@ article{
 }
 aside{
 	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 }
 body{
 
@@ -20,6 +22,7 @@ div{
 	max-width: 15px;
 }
 footer{
+	background-color: FF957E;
 	color: #16fdff;
 	font-family: 'Noto Serif', serif;
 	text-align:	center;
@@ -53,10 +56,4 @@ ul	{
 	color: #ffffff;
 	padding-top: 30px;
 	padding-bottom: 30px;
-.floatright{
-	float:right;
-	margin:0 o 10px 10px;
-	border: 1px solid #666;
-	padding: 2px;
-	width: 50px;
 }	
