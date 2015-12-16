@@ -8,7 +8,7 @@ body{
 }
 div{
 	float:right;
-	height: auto;
+	max-height: 30px;
 	margin:0 o 10px 10px;
 	border: 1px solid #666;
 	padding: 2px;
