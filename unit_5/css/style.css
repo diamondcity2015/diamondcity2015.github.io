@@ -46,9 +46,6 @@ header{
 a:hover{
 	color: #3AFF3C;
 }
-a:visited{
-	color: #F5391E;
-}
 img{
 	border: 1px black solid;
 	display: block;
