@@ -94,12 +94,16 @@ ul	{
 #left{
 	background-color: #E582A2;
 	border: 1px black solid;
+	float: left;
 	padding: 20px;
+	width: 62%;
 }
 #right {
 	background-color: #E55B88;
 	border: 1px black solid;
+	float: right;
 	padding: 20px;
+	width: 30%;
 }
 #two_column{
 	background-color: #FFB7CF;
