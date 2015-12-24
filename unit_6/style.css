@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 article{
-	background-color: #E89C6C;
+	/*background-color: #E89C6C;
 	border: 1px black solid;
 	padding: 20px;
-}
+}*/
 *{
 	box-sizing:border-box;
 	margin: 0;
@@ -12,9 +12,7 @@ article{
 	
 }
 aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
+	/*background-color: #FFC675;*/
 }
 body{
 
