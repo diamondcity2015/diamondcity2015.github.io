@@ -30,7 +30,6 @@ body{
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
-	
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
 	padding: 20px;
@@ -66,7 +65,7 @@ nav a{
 	color: #16fdff;
 }
 a{
-	background-color:E8640F;
+	background-color:#FFE2B8;
 	display: inline;
 	padding: 10px;
 	width: 200px;
