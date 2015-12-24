@@ -79,6 +79,7 @@ a:hover{
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
+	height: 300px;
 	padding: 20px;
 }
 section{
