@@ -63,10 +63,14 @@ nav {
 }
 nav a{
 	color: #16fdff;
+}
+a{
 	background-color:E8640F;
+	display: inline;
+	padding: 10px;
+	width: 200px;
 	text-decoration: none;
 }
-
 a:hover{
 	background-color: #E8C66A;
 	color: #3AFF3C;
