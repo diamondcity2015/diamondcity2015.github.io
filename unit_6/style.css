@@ -48,6 +48,7 @@ header{
 img{
 	border: 1px black solid;
 	display: block;
+	float: left;
 	height: 295px;
 	margin: auto;
 	padding: 5px;
