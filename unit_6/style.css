@@ -65,6 +65,7 @@ nav a{
 	color: #16fdff;
 }
 a:hover{
+	background-color: FF7A0D;
 	color: #3AFF3C;
 }
 main {
