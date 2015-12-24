@@ -95,6 +95,21 @@ ul	{
 	height: 0;
 	visibility: hidden;
 }
+#left{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+}
+#two_column{
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
 #wrapper{
 	width: 400px;
 }
