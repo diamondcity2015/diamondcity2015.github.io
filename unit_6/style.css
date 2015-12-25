@@ -9,14 +9,16 @@ article{
 	padding: 0;
 	
 }
+
 aside{
 	
 }
+
 body{
 
 }
 
-}
+
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
@@ -56,27 +58,33 @@ a:hover{
 	background-color: #E8C66A;
 	color: #3AFF3C;
 }
+
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	height: 300px;
 	padding: 20px;
 }
+
 section{
 
 }
+
 h1{
 	
-}	
+}
+
 h2{
 
 }
+
 ul	{
 	text-align: center;
 	color: #ffffff;
 	padding-top: 30px;
 	padding-bottom: 30px;
-}	
+}
+
 .clearfix:after {
 	clear: both;
 	content:' ';
@@ -85,6 +93,7 @@ ul	{
 	height: 0;
 	visibility: hidden;
 }
+
 #images{
 	width: 20%;
 	float:left;
@@ -93,6 +102,7 @@ ul	{
 	border: 1px solid #666;
 	padding: 10px;
 }
+
 #left {
 	background-color: violet;
 	border: 1px black solid;
@@ -100,6 +110,7 @@ ul	{
 	padding: 20px;
 	width: 62%;
 }
+
 #right {
 	background-color: pink;
 	border: 1px black solid;
@@ -107,11 +118,13 @@ ul	{
 	padding: 20px;
 	width: 30%;
 }
+
 #two_column{
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
 }
+
 #wrapper{
 	width: 400px;
 }
