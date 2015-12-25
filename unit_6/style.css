@@ -94,14 +94,14 @@ ul	{
 	padding: 10px;
 }
 #left {
-	background-color: #E582A2;
+	background-color: violet;
 	border: 1px black solid;
 	float: left;
 	padding: 20px;
 	width: 62%;
 }
 #right {
-	background-color: #E55B88;
+	background-color: pink;
 	border: 1px black solid;
 	float: right;
 	padding: 20px;
