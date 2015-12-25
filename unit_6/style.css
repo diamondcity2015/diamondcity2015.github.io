@@ -33,6 +33,7 @@ footer a{
 header{
 	background-color: #FFED74;
 	border: 1px black solid;
+	font-family: sans-serif;
 	padding: 20px;
 	text-align: center;
 }
