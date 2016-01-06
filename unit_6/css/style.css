@@ -70,8 +70,7 @@ nav a{
 }
 a{
 	background-color:#E8640F;
-	display: block;
-	float: left;
+	display: inline;
 	padding: 20px;
 	width: 200px;
 	text-decoration: none;
