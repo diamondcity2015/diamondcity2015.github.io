@@ -80,7 +80,8 @@ a:hover{
 	color: #3AFF3C;
 }
 a:active{
-
+	background-color: #E8C66a;
+	color: #3AFF3C;
 }
 main {
 	background-color: #FFE2B8;
