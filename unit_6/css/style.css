@@ -66,7 +66,7 @@ nav a{
 	color: #16fdff;
 }
 a{
-	background-color:E8640F;
+	background-color:#E8640F;
 	display: inline;
 	padding: 10px;
 	width: 200px;
@@ -77,7 +77,7 @@ a:hover{
 	color: #3AFF3C;
 }
 a:active{
-	
+
 }
 main {
 	background-color: #FFE2B8;
