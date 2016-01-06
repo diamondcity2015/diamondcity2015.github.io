@@ -76,6 +76,9 @@ a:hover{
 	background-color: #E8C66A;
 	color: #3AFF3C;
 }
+a:active{
+	
+}
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
