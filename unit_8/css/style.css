@@ -152,5 +152,6 @@ ul	{
 }
 
 #wrapper{
+	float: left;
 	width: 100%;
 }
