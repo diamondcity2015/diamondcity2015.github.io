@@ -11,7 +11,7 @@
 article{
 	background-color: #E89C6C;
 	border: 1px black solid;
-	display: block;
+	display: inline;
 	padding: 20px;
 	width: 100%;
 }
@@ -86,7 +86,7 @@ a:active{
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	display: block;
+	display: inline;
 	height: 300px;
 	padding: 20px;
 	width: 100%;
