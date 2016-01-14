@@ -58,6 +58,13 @@ img{
 	padding: 10px;
 	width: 35%;
 }
+
+label {
+	display: none;
+	font-family: sans-serif;
+}
+
+
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
@@ -121,6 +128,10 @@ ul	{
 	visibility: hidden;
 }
 
+#check {
+	display: none;
+}
+
 #images{
 	width: 50%;
 	float:left;
@@ -157,6 +168,17 @@ ul	{
 	width: 100%;
 }
 
+@ media screen and (max-width: 510px) {
+	label {
+		display: block;
+		text-align: center;
+	}
+
+#check: checked + nav + footer {
+	display: block;
+}	
+}
+
 @ media screen and (max-width: 1070px) {
-	
+
 }
