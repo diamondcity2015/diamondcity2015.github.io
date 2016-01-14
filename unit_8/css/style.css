@@ -78,11 +78,14 @@ a:hover{
 	background-color: #7F00FF;
 	color: #3AFF3C;
 }
-
+a:active{
+	background-color: #E8C66a;
+	color: #3AFF3C;
+}
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	height: 300px;
+	/*height: 300px;*/
 	padding: 20px;
 }
 
@@ -111,7 +114,7 @@ ul	{
 	display: block;
 	font-size: 0;
 	height: 0;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 #images{
