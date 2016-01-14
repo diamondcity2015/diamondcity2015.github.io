@@ -87,6 +87,7 @@ a:active{
 main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
+	display: block;
 	height: 300px;
 	padding: 20px;
 	width: 100%;
