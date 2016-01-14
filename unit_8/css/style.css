@@ -13,7 +13,7 @@ article{
 	border: 1px black solid;
 	display: inline;
 	height: 320px;
-	padding: 20px;
+	padding: 2%;
 	width: 100%;
 }
 aside{
@@ -21,7 +21,7 @@ aside{
 	border: 1px black solid;
 	float: left;
 	height: 204px;
-    padding: 20px;
+    padding: 2%;
     width: 100%;
 }
 
@@ -35,7 +35,7 @@ footer{
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
-	padding: 30px;
+	padding: 3%;
 	text-align:	center;
 }
 footer a{
@@ -46,7 +46,7 @@ header{
 	border: 1px black solid;
 	font-family: sans-serif;
 	font-weight: 800;
-	padding: 20px;
+	padding: 2%;
 	text-align: center;
 }
 img{
@@ -55,7 +55,7 @@ img{
 	float: left;
 	height: 295px;
 	margin: auto;
-	padding: 10px;
+	padding: 1%;
 	width: 35%;
 }
 
@@ -70,7 +70,7 @@ nav {
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
-	padding: 30px;
+	padding: 3%;
 	text-align:	center;
 }
 nav a{
@@ -79,7 +79,7 @@ nav a{
 a{
 	background-color:#FF530D;
 	display: inline;
-	padding: 30px;
+	padding: 3%;
 	width: 20%;
 	text-decoration: none;
 }
@@ -96,7 +96,7 @@ main {
 	border: 1px black solid;
 	display: inline;
 	height: 320px;
-	padding: 20px;
+	padding: 2%;
 	width: 100%;
 }
 
@@ -115,8 +115,8 @@ h2{
 ul	{
 	text-align: center;
 	color: #ffffff;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 .clearfix:after {
@@ -138,14 +138,14 @@ ul	{
 	display: block;
 	/*margin:0 o 10px 10px;*/
 	border: 1px solid #666;
-	padding: 10px;
+	padding: 1%;
 }
 
 #left {
 	background-color: #7F00FF;
 	border: 1px black solid;
 	float: left;
-	padding: 20px;
+	padding: 2%;
 	width: 50%;
 }
 
@@ -153,14 +153,14 @@ ul	{
 	background-color: #ff69b4;
 	border: 1px black solid;
 	float: right;
-	padding: 20px;
+	padding: 2%;
 	width: 50%;
 }
 
 #two_column{
 	background-color: #FFB7CF;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2%;
 }
 
 #wrapper{
