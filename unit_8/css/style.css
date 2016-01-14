@@ -5,7 +5,7 @@ article{
 	border: 1px black solid;
 	display: block;
 	padding: 20px;
-	width: 50%;
+	width: 90%;
 }
 	
 
@@ -22,7 +22,7 @@ aside{
 	float: left;
 	height: 204px;
     padding: 20px;
-    width: 50%;
+    width: 90%;
 }
 
 body{
@@ -92,7 +92,7 @@ main {
 }
 
 section{
-	width: 50%;
+	width: 90%;
 }
 
 h1{
