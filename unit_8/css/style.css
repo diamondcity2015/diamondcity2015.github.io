@@ -1,14 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
-article{
-	background-color: #E89C6C;
-	border: 1px black solid;
-	display: block;
-	padding: 20px;
-	width: 100%;
-}
 	
-
 *{
 	box-sizing:border-box;
 	margin: 0;
@@ -16,6 +8,13 @@ article{
 	
 }
 
+article{
+	background-color: #E89C6C;
+	border: 1px black solid;
+	display: block;
+	padding: 20px;
+	width: 100%;
+}
 aside{
 	background-color: #FFC675;
 	border: 1px black solid;
@@ -135,7 +134,7 @@ ul	{
 	border: 1px black solid;
 	float: left;
 	padding: 20px;
-	width: 62%;
+	width: 50%;
 }
 
 #right {
@@ -143,7 +142,7 @@ ul	{
 	border: 1px black solid;
 	float: right;
 	padding: 20px;
-	width: 30%;
+	width: 50%;
 }
 
 #two_column{
