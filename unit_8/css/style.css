@@ -12,7 +12,7 @@ article{
 	background-color: #E89C6C;
 	border: 1px black solid;
 	display: inline;
-	height: 35%;
+	height: 320px;
 	padding: 2%;
 	width: 100%;
 }
@@ -20,7 +20,7 @@ aside{
 	background-color: #FFC675;
 	border: 1px black solid;
 	float: left;
-	height: 35%;
+	height: 204px;
     padding: 2%;
     width: 100%;
 }
@@ -34,7 +34,6 @@ footer{
 	background-color: #FF957E;
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
-	height: 10%;
 	letter-spacing: 4px;
 	padding: 3%;
 	text-align:	center;
@@ -47,7 +46,6 @@ header{
 	border: 1px black solid;
 	font-family: sans-serif;
 	font-weight: 800;
-	height: 10%;
 	padding: 2%;
 	text-align: center;
 }
@@ -71,7 +69,6 @@ nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
-	height: 10%;
 	letter-spacing: 4px;
 	padding: 3%;
 	text-align:	center;
@@ -98,7 +95,7 @@ main {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	display: inline;
-	height: 35%;
+	height: 320px;
 	padding: 2%;
 	width: 100%;
 }
@@ -133,10 +130,6 @@ ul	{
 
 #check {
 	display: none;
-}
-
-#fullscreen {
-	height: 100%;
 }
 
 #images{
