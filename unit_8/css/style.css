@@ -3,6 +3,7 @@
 article{
 	background-color: #E89C6C;
 	border: 1px black solid;
+	display: block;
 	padding: 20px;
 	width: 50%;
 }
