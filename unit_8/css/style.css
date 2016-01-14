@@ -15,7 +15,12 @@ article{
 }
 
 aside{
-	
+	background-color: #FFC675;
+	border: 1px black solid;
+	float: left;
+	height: 204px;
+    padding: 20px;
+    width: 50%;
 }
 
 body{
