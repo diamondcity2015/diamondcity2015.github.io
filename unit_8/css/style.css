@@ -135,6 +135,10 @@ ul	{
 	display: none;
 }
 
+#fullscreen {
+	height: 100%;
+}
+
 #images{
 	width: 50%;
 	float:left;
