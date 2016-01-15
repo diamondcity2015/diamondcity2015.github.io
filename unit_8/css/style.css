@@ -94,6 +94,10 @@ ul	{
 	padding-bottom: 3%;
 }
 
+.bottom {
+	width: 50%;
+}
+
 .clearfix:after {
 	clear: both;
 	content:' ';
@@ -103,9 +107,6 @@ ul	{
 	visibility: hidden;
 }
 
-#check {
-	display: none;
-}
 
 .images{
 	width: 50%;
@@ -113,6 +114,10 @@ ul	{
 	display: block;
 	/*margin:0 o 10px 10px;*/
 	border: 1px solid #666;
+}
+
+#check {
+	display: none;
 }
 
 #left {
