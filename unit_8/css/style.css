@@ -181,9 +181,16 @@ ul	{
 
 @ media screen and (max-width: 1070px) {
 
+	body{
+		font-size: 14px;
+	}
 }
 
 @ media screen and (max-width: 445px) {
+
+	body { 
+		font-size: 13px;
+}
 
 	section{
 		float: none;
