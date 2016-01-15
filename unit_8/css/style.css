@@ -48,6 +48,7 @@ header{
 	font-weight: 800;
 	padding: 2%;
 	text-align: center;
+	width: 100%;
 }
 img{
 	border: 1px black solid;
@@ -183,7 +184,7 @@ ul	{
 }
 
 @ media screen and (max-width: 445px) {
-	
+
 	section{
 		float: none;
 		width: auto;
