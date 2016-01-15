@@ -96,6 +96,7 @@ ul	{
 
 .bottom {
 	display: block;
+	float: left;
 }
 
 .clearfix:after {
