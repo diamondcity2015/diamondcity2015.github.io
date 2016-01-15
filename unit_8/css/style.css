@@ -5,38 +5,17 @@
 	box-sizing:border-box;
 	margin: 0;
 	padding: 0;
-	
 }
-
-article{
-	background-color: #E89C6C;
-	border: 1px black solid;
-	display: inline;
-	height: 240px;
-	padding: 2%;
-	width: 100%;
-}
-aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-	float: left;
-	height: 204px;
-    padding: 2%;
-    width: 100%;
-}
-
 body{
 	font-size: 16px;
 }
-
-
 footer{
 	background-color: #FF957E;
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
-	padding: 3%;
-	text-align:	center;
+	padding: 2em;
+	text-align: center;
 }
 footer a{
 	color: #16fdff;
@@ -46,7 +25,7 @@ header{
 	border: 1px black solid;
 	font-family: sans-serif;
 	font-weight: 800;
-	padding: 2%;
+	padding: 2em;
 	text-align: center;
 	width: 100%;
 }
@@ -54,9 +33,9 @@ img{
 	border: 1px black solid;
 	display: block;
 	float: left;
-	margin: auto;
-	padding: 1%;
-	width: 35%;
+	margin: 0 1em 0 0;
+	padding: 2em;
+	width: 33.33%;
 }
 
 label {
@@ -70,8 +49,8 @@ nav {
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 4px;
-	padding: 3%;
-	text-align:	center;
+	padding: 2em;
+	text-align:center;
 }
 nav a{
 	color: #16fdff;
@@ -91,17 +70,9 @@ a:active{
 	background-color: #E8C66a;
 	color: #3AFF3C;
 }
-main {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	display: inline;
-	height: 240px;
-	padding: 2%;
-	width: 100%;
-}
 
 section{
-	width: 100%;
+	padding:2em;
 }
 
 h1{
@@ -116,6 +87,7 @@ p {
 }
 
 ul	{
+	font-size:1.5em;
 	text-align: center;
 	color: #ffffff;
 	padding-top: 3%;
@@ -135,28 +107,25 @@ ul	{
 	display: none;
 }
 
-#images{
+.images{
 	width: 50%;
 	float:left;
 	display: block;
 	/*margin:0 o 10px 10px;*/
 	border: 1px solid #666;
-	padding: 1%;
 }
 
 #left {
 	background-color: #7F00FF;
 	border: 1px black solid;
 	float: left;
-	padding: 2%;
 	width: 50%;
 }
 
 #right {
 	background-color: #ff69b4;
 	border: 1px black solid;
-	float: right;
-	padding: 2%;
+	float: left;
 	width: 50%;
 }
 
@@ -165,45 +134,25 @@ ul	{
 	border: 1px black solid;
 	padding: 2%;
 }
-
-#wrapper{
-	float: left;
-	width: 100%;
-}
-
-@ media screen and (max-width: 510px) {
+@media only screen and (max-width: 510px) {
 	label {
 		display: block;
 		text-align: center;
 	}
-
-#check: checked + nav + footer {
-	display: block;
-}	
+	#check:checked + nav + footer {
+		display: block;
+	}	
 }
-
-@ media screen and (max-width: 1070px) {
-
-	body{
-		font-size: 14px;
-	}
-}
-
-@ media screen and (max-width: 445px) {
+@media only screen and (max-width: 445px) {
 
 	body { 
 		font-size: 13px;
 		display: none;
-}
+	}
 
 	section{
 		float: none;
 		width: auto;
 	}	
-
-	#wrapper{
-		float:none;
-		width: auto;
-	}
 
 }
