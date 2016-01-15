@@ -132,11 +132,6 @@ ul	{
 	width: 50%;
 }
 
-#two_column{
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 2%;
-}
 @media only screen and (max-width: 510px) {
 	label {
 		display: block;
