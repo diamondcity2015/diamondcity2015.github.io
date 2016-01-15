@@ -179,5 +179,14 @@ ul	{
 }
 
 @ media screen and (max-width: 1070px) {
+	section{
+		float: none;
+		width: auto;
+	}	
+
+	#wrapper{
+		float:none;
+		width: none;
+	}
 
 }
