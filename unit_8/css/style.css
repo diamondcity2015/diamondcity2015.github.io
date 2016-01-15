@@ -96,7 +96,7 @@ ul	{
 
 .bottom {
 	display: block;
-	float: left;
+	width: 100%;
 }
 
 .clearfix:after {
@@ -113,7 +113,6 @@ ul	{
 	width: 50%;
 	float:left;
 	display: block;
-	/*margin:0 o 10px 10px;*/
 	border: 1px solid #666;
 }
 
