@@ -156,7 +156,7 @@ ul	{
 	}
 
 	img{
-		float:none;
+		
 	}
 
 	label {
@@ -168,6 +168,10 @@ ul	{
 		float: none;
 		width: auto;
 	}	
+
+	.images {
+		float: none;
+	}
 
 	.line {
 		background-color: black;
