@@ -5,11 +5,15 @@ body 	{
 	font-size: 16px;
 }
 header {
-	border: 2px black solid;
+	border: 2px white solid;
 	padding: 2em;
 }
 
+main {
+	border: 2px black solid;
+} 
+
 .images {
 	float: left;
-	width: 30%;
+	width: 33%;
 }
