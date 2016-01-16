@@ -135,6 +135,11 @@ ul	{
 	padding: 2em;
 	width: 100%;
 }
+@media only screen and (max-width: 1070px){
+	.images{
+		min-width:30%;
+	}
+}
 
 @media only screen and (max-width: 576px) {
 	label {
