@@ -145,10 +145,15 @@ ul	{
 		display: block;
 	}	
 }
-@media only screen and (max-width: 445px) {
+@media only screen and (min-width: 200px) and (max-width: 445px) {
 
 	body { 
 		
+	}
+
+	label {
+		margin:auto;
+		width: 2.5em;
 	}
 
 	section{
@@ -156,4 +161,9 @@ ul	{
 		width: auto;
 	}	
 
+	.line {
+		height: .3em;
+		margin: .3em;
+		width: 2.5%;
+	}
 }
