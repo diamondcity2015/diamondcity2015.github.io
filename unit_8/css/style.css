@@ -162,6 +162,7 @@ ul	{
 	}	
 
 	.line {
+		background-color: black;
 		height: .3em;
 		margin: .3em;
 		width: 2.5%;
