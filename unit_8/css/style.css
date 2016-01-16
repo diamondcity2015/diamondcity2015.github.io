@@ -34,6 +34,7 @@ img{
 	display: block;
 	float: left;
 	margin: 0 1em 0 0;
+	min-width: 200px;
 	padding: 2em;
 	width: 33.33%;
 }
