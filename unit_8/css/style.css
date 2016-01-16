@@ -171,6 +171,7 @@ ul	{
 
 	.images {
 		float: none;
+		width: 100%;
 	}
 
 	.line {
