@@ -121,15 +121,15 @@ ul	{
 #left {
 	background-color: #7F00FF;
 	border: 1px black solid;
-	float: left;
-	width: 50%;
+	float: none;
+	width: 99%;
 }
 
 #right {
 	background-color: #ff69b4;
 	border: 1px black solid;
-	float: left;
-	width: 50%;
+	float: none;
+	width: 99%;
 }
 
 @media only screen and (max-width: 510px) {
