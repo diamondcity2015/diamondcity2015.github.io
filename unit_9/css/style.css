@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro:900);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif);
+	
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+}
+footer{
+	background-color: #50e877;
+	border: 1px black solid;
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 2px;
+	padding: 2em;
+	text-align: center;
+}
+footer a{
+	color: #e5fff7;
+}
+header{
+	background-color: #08871d;
+	border: 1px black solid;
+	font-family: sans-serif;
+	font-weight: 800;
+	padding: 2em;
+	text-align: center;
+	width: 100%;
+}
+img{
+	border: 1px black solid;
+	display: block;
+	float: left;
+	margin: 0 1em 0 0;
+	min-width: 200px;
+	padding: 2em;
+	width: 33.33%;
+}
+
+label {
+	display: none;
+	font-family: sans-serif;
+}
+
+
+nav {
+	background-color: #50e877;
+	border: 1px black solid;
+	font-family: 'Noto Serif', serif;
+	letter-spacing: 3px;
+	padding: 2em;
+	text-align:center;
+}
+nav a{
+	color: #e5fff7;
+}
+a{
+	background-color:#23b8e8;
+	display: inline;
+	padding: 1em%;
+	width: 20%;
+	text-align: center;
+}
+a:hover{
+	background-color: #08871d;
+	color: #e8d948;
+}
+a:active{
+	background-color: #08871d;
+	color: #e8d948;
+}
+
+section{
+	padding:2em;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.5em;
+}
+p {
+	font-family: 'Noto Serif', serif;
+	font-size: 1em;
+}
+
+ul	{
+	font-size:1.5em;
+	text-align: center;
+	color: #ffffff;
+}
+
+.bottom {
+	display: inline;
+	width: 100%;
+}
+
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+
+.images{
+	float:left;
+	display: block;
+	padding: 1em;
+	width: 50%;
+}
+
+
+#left {
+	background-color: #50e877;
+	border: 1px black solid;
+	float: none;
+	padding: 2em;
+	width: 100%;
+}
+
+#right {
+	background-color: #ffffff;
+	border: 1px black solid;
+	float: none;
+	padding: 2em;
+	width: 100%;
+}
+@media only screen and (max-width: 1070px){
+	.images{
+		
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	label {
+		
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+
+	a {
+		text-align: center;
+	}
+	body { 
+		
+	}
+
+	img{
+		
+	}
+
+	label {
+		margin:auto;
+		width: 2.5em;
+	}
+
+	section{
+		float: none;
+		width: auto;
+	}	
+
+	.images {
+		float: none;
+		width: 100%;
+	}
+
+	.line {
+		background-color: black;
+		height: .3em;
+		margin: .3em;
+		width: 75%;
+	}
+}
