@@ -137,7 +137,7 @@ ul	{
 }
 @media only screen and (max-width: 1070px){
 	.images{
-		min-width:30%;
+		min-width:20%;
 	}
 }
 
@@ -147,6 +147,9 @@ ul	{
 }
 @media only screen and (min-width: 200px) and (max-width: 445px) {
 
+	a {
+		text-align: center;
+	}
 	body { 
 		
 	}
