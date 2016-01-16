@@ -2,7 +2,9 @@ body 	{
 	background-image: url("images/td.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-size: 16px;
 }
 header {
-	border: 1px black solid;
+	border: 2px black solid;
+	padding: 2em;
 }
