@@ -109,10 +109,11 @@ ul	{
 
 
 .images{
-	width: 50%;
+	border: 1px solid #666;
 	float:left;
 	display: block;
-	border: 1px solid #666;
+	padding: 1em;
+	width: 50%;
 }
 
 #check {
