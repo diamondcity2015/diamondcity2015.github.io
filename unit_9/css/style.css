@@ -17,9 +17,16 @@ footer{
 	padding: 2em;
 	text-align: center;
 }
+
 footer a{
 	color: #e5fff7;
 }
+
+footer img {
+	padding: 1em;
+	width: 2em;
+}
+
 header{
 	background-color: #08871d;
 	border: 1px black solid;
