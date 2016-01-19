@@ -17,7 +17,7 @@ header {
 
 main {
 	border: 2px black solid;
-	width: 95%;
+
 } 
 
 .clearfix:after {
@@ -34,6 +34,7 @@ main {
     box-sizing:border-box;
     display: block;
     float: left;
+    margin: auto;
     padding: 1em;
     width: 33.33%;
  }
@@ -49,8 +50,9 @@ main {
 .information3 {
     box-sizing:border-box;
     display: block;
-    float: none;
+    float: right;
     padding: 1em;
+    text-align: center;
     width: 33.33%;
  }
 
