@@ -41,7 +41,7 @@ main {
     display: block;
     float: left;
     margin: auto;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
     width: 33.33%;
  }
@@ -52,7 +52,7 @@ main {
     display: block;
     float:left;
     margin:auto;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
     width: 33.33%;
  }
@@ -61,7 +61,7 @@ main {
     box-sizing:border-box;
     display: block;
     float: right;
-    padding: 1em;
+    padding: 2em;
     text-align: center;
     width: 33.33%;
  }
