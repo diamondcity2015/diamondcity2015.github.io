@@ -22,8 +22,8 @@ main {
 .information {
     box-sizing:border-box;
     display: block;
-    float: left;
-    padding: 20px;
+    float: none;
+    padding: 1em;
     width: 33.33%;
     
 .images {
