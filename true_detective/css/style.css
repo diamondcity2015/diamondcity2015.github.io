@@ -4,6 +4,9 @@
 	padding: 0;
 }
 
+aside{
+	border:1px black solid;
+}
 body 	{
 	background-image: url("images/td.jpeg");
 	background-repeat: no-repeat;
@@ -11,7 +14,7 @@ body 	{
 	font-size: 16px;
 }
 header {
-	border: 2px white solid;
+	border: 2px gray solid;
 	padding: 2em;
 }
 
@@ -39,7 +42,8 @@ main {
     width: 33.33%;
  }
 
- .information2 {
+ .more {
+ 	border: 1px black solid;
     box-sizing:border-box;
     display: block;
     float: none;
@@ -47,7 +51,7 @@ main {
     width: 33.33%;
  }
 
-.information3 {
+.evenmore {
     box-sizing:border-box;
     display: block;
     float: right;
