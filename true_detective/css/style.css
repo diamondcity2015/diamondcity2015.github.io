@@ -49,8 +49,10 @@ main {
  	border: 1px black solid;
     box-sizing:border-box;
     display: block;
-    
+    float:left;
+    margin:auto;
     padding: 1em;
+    text-align: center;
     width: 33.33%;
  }
 
