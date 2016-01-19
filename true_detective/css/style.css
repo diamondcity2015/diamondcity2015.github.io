@@ -19,6 +19,15 @@ main {
 	border: 2px black solid;
 } 
 
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
 .information {
     box-sizing:border-box;
     display: block;
