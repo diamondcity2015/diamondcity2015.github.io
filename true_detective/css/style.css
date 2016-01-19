@@ -21,10 +21,11 @@ main {
 
 .information {
     box-sizing:border-box;
+    display: inline;
+    float: left;
     padding: 20px;
     width: 33.33%;
-    float: left;
-
+    
 .images {
 	float: left;
 	margin: auto;
