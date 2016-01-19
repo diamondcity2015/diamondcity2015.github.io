@@ -21,7 +21,7 @@ main {
 
 .information {
     box-sizing:border-box;
-    display: inline;
+    display: block;
     float: left;
     padding: 20px;
     width: 33.33%;
