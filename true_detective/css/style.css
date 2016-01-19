@@ -43,7 +43,7 @@ main {
     margin: auto;
     padding: 2em;
     text-align: center;
-    width: 33.33%;
+    width: 30%;
  }
 
  .more {
@@ -54,7 +54,7 @@ main {
     margin:auto;
     padding: 2em;
     text-align: center;
-    width: 33.33%;
+    width: 30%;
  }
 
 .evenmore {
@@ -63,7 +63,7 @@ main {
     float: right;
     padding: 2em;
     text-align: center;
-    width: 33.33%;
+    width: 30%;
  }
 
 .images {
