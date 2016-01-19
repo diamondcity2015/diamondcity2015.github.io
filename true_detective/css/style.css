@@ -31,11 +31,19 @@ main {
 .information {
     box-sizing:border-box;
     display: block;
+    float: left;
+    padding: 1em;
+    width: 33.33%;
+ }
+
+.information3 {
+    box-sizing:border-box;
+    display: block;
     float: none;
     padding: 1em;
     width: 33.33%;
  }
-    
+
 .images {
 	float: left;
 	margin: auto;
