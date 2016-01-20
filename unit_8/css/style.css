@@ -23,7 +23,7 @@ footer a{
 header{
 	background-color: #08871d;
 	border: 1px black solid;
-	display: inline;
+	
 	font-family: sans-serif;
 	font-weight: 800;
 	padding: 2em;
@@ -49,7 +49,7 @@ label {
 nav {
 	background-color: #50e877;
 	border: 1px black solid;
-	display: none;
+	display: inline;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 3px;
 	padding: 2em;
