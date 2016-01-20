@@ -16,6 +16,13 @@ body 	{
 	
 	font-size: 16px;
 }
+
+footer{
+	margin:auto;
+	padding: 5em;
+	width: 100%;
+}
+
 header {
 	
 	padding: 2em;
