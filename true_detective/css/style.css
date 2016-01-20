@@ -29,10 +29,11 @@ main {
 
 
 #column1 {
+	background-color: cc17fs;
 	border:1px black solid;
     box-sizing:border-box;
     display: block;
-    float: left;
+    
     margin: auto;
     padding: 2em;
     text-align: center;
@@ -43,7 +44,7 @@ main {
  	border: 1px black solid;
     box-sizing:border-box;
     display: block;
-    float:left;
+    
     margin:auto;
     padding: 2em;
     text-align: center;
@@ -53,7 +54,7 @@ main {
 #column3 {
     box-sizing:border-box;
     display: block;
-    float: right;
+    
     padding: 2em;
     text-align: center;
     width: 30%;
