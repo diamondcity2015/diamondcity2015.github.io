@@ -49,6 +49,7 @@ label {
 nav {
 	background-color: #50e877;
 	border: 1px black solid;
+	display: none;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 3px;
 	padding: 2em;
@@ -154,9 +155,7 @@ ul	{
 		
 	}
 
-	header{
-		display: none;
-	}
+	
 
 	img{
 		
@@ -165,6 +164,10 @@ ul	{
 	label {
 		margin:auto;
 		width: 2.5em;
+	}
+
+	nav{
+		display:none;
 	}
 
 	section{
