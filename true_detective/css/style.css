@@ -6,6 +6,7 @@
 
 article{
 	margin: auto;
+	padding: 3em;
 	width: 100%;
 }
 aside{
@@ -21,8 +22,8 @@ header {
 }
 
 iframe{
-	height: 250px;
-	width: 300px%;
+	
+	
 }
 
 main {
