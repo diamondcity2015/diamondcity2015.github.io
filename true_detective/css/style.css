@@ -68,7 +68,7 @@ main {
 	visibility: hidden;
 }
 .column {
-
+	float: left;
 }
 
 .images {
