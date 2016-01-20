@@ -5,7 +5,7 @@
 }
 
 article{
-	
+	margin: auto;
 	width: 100%;
 }
 aside{
@@ -22,7 +22,7 @@ header {
 
 iframe{
 	height: 250px;
-	width: 35%;
+	width: 300px%;
 }
 
 main {
