@@ -20,6 +20,11 @@ header {
 	padding: 2em;
 }
 
+iframe{
+	height: 300px;
+	width: 45%;
+}
+
 main {
 	border: 2px black solid;
 
@@ -30,7 +35,7 @@ h1{
 }
 
 h2{
-	padding:3em;
+	padding:2em;
 }
 
 #column1 {
