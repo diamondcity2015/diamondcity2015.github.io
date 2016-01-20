@@ -29,7 +29,7 @@ main {
 
 
 #column1 {
-	background-color: cc17fs;
+	background-color: pink;
 	border:1px black solid;
     box-sizing:border-box;
     display: block;
@@ -41,6 +41,7 @@ main {
  }
 
  #column2{
+ 	background-color: blue;
  	border: 1px black solid;
     box-sizing:border-box;
     display: block;
@@ -52,6 +53,7 @@ main {
  }
 
 #column3 {
+	background-color: red;
     box-sizing:border-box;
     display: block;
     
