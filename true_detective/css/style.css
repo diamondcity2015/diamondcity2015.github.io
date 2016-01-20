@@ -73,8 +73,8 @@ h2{
 #column3 {
 	background-color: red;
     box-sizing:border-box;
-    
-    margin: auto;
+    border: 1px black solid;
+   	margin: auto;
     padding: 2em;
     text-align: center;
     width: 33%;
@@ -82,22 +82,23 @@ h2{
 
 #column4 {
 	background-color: yellow;
-    box-sizing:border-box;
     
+    border: 1px black solid;
+    box-sizing:border-box;
     margin: auto;
     padding: 2em;
     text-align: center;
-    width: 50%;
+    width: 49%;
 }
 
 #column5 {
 	background-color: green;
+    border: 1px black solid;
     box-sizing:border-box;
-    
     margin: auto;
     padding: 2em;
     text-align: center;
-    width: 50%;
+    width: 49%;
 }
 
 .clearfix:after {
