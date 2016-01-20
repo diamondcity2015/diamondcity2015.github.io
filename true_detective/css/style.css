@@ -38,6 +38,10 @@ main {
 
 } 
 
+nav {
+	border: 2px black solid;
+}
+
 h1{
 
 }
