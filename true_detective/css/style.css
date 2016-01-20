@@ -25,7 +25,13 @@ main {
 
 } 
 
+h1{
 
+}
+
+h2{
+	padding:3em;
+}
 
 #column1 {
 	background-color: pink;
