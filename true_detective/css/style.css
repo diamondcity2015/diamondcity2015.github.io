@@ -80,6 +80,26 @@ h2{
     width: 33%;
  }
 
+#column4 {
+	background-color: yellow;
+    box-sizing:border-box;
+    
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    width: 50%;
+}
+
+#column5 {
+	background-color: green;
+    box-sizing:border-box;
+    
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    width: 50%;
+}
+
 .clearfix:after {
 	clear: both;
 	content:' ';
