@@ -188,6 +188,11 @@ ul	{
 		margin: .3em;
 		width: 75%;
 	}
+
+	#check {
+		display: inline;
+	}
+	
 	#toggle:checked + nav {
 		display: block;
 	}
