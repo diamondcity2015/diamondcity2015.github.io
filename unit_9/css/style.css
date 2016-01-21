@@ -23,6 +23,7 @@ footer a{
 }
 
 footer img {
+	border: none;
 	padding: 1em;
 	max-width: 25px;
 	width: 2em;
