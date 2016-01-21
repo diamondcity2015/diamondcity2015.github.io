@@ -155,6 +155,12 @@ ul	{
 	}
 }
 
+@media only screen and (max-width: 900px) {
+	footer img {
+		width: 10%;
+	}
+}
+
 @media only screen and (max-width: 576px) {
 	label {
 		
