@@ -71,11 +71,11 @@ a{
 	width: 20%;
 	text-align: center;
 }
-a:hover{
+ nav a:hover{
 	background-color: #08871d;
 	color: #e8d948;
 }
-a:active{
+nav a:active{
 	background-color: #08871d;
 	color: #e8d948;
 }
