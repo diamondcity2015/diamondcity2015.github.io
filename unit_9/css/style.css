@@ -24,7 +24,7 @@ footer img {
 	float: none;
 	margin: auto;
 	padding: 1em;
-	width: 5%;
+	width: 7%;
 	
 }
 
@@ -64,7 +64,7 @@ nav {
 nav a{
 	color: #e5fff7;
 }
-a{
+nav a{
 	background-color:#23b8e8;
 	display: inline;
 	padding: 1em%;
