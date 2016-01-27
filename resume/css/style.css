@@ -14,6 +14,11 @@ nav {
 	padding: 3em;
 }
 
+h2 {
+	text-align: center;
+	padding: 3em;
+}
+
 .class {
 	border: 1px black solid;
 }
