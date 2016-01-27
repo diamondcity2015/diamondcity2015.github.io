@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 header{
 	text-align: center;
 }
@@ -6,8 +8,11 @@ header img {
 	margin:auto;
 }
 
-.class 
-  {
+nav {
+	font-family: 'Pacifico', sans-serif;
+}
+
+.class {
 	border: 1px black solid;
 }
 
