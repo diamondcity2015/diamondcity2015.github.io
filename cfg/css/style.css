@@ -10,6 +10,10 @@ header{
 	width: 90%;
 }
 
+header img {
+ 	width: 90%;
+}
+
 h1 {
 	font-family: 'Pacifico' , sans-serif;
 }
