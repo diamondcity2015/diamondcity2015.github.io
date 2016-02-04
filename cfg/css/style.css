@@ -4,6 +4,7 @@ body {
 
 header{
 	margin:auto;
+	text-align: center;
 	width: 90%;
 }
 .clearfix:after {
