@@ -21,6 +21,11 @@ header img {
  	width: 90%;
 }
 
+main {
+	text-align: center;
+	padding: 3em;
+}
+
 nav {
 	background-color: #Edc617;
 	border: 1px black solid;
