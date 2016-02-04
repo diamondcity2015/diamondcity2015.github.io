@@ -4,6 +4,7 @@
 article {
 	
 	margin: auto;
+	padding: 3em;
 	text-align: center;
 }
 
@@ -60,6 +61,7 @@ nav a:active{
 section {
 	
 	margin: auto;
+	padding: 3em;
 	text-align: center;
 }
 
