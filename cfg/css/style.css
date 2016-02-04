@@ -54,6 +54,7 @@ nav a:active{
 section {
 	border:1px black solid;
 	margin: auto;
+	text-align: center;
 }
 
 p {
