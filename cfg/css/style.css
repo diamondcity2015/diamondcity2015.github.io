@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 body {
 
 }
@@ -6,6 +8,10 @@ header{
 	margin:auto;
 	text-align: center;
 	width: 90%;
+}
+
+h1 {
+	font-family: 'Pacifico' , sans-serif;
 }
 .clearfix:after {
 	clear: both;
