@@ -51,6 +51,11 @@ nav a:active{
 	color: #3AFF3C;
 }
 
+section {
+	border:1px black solid;
+	margin: auto;
+}
+
 p {
 	margin: auto;
 	text-align: center;
