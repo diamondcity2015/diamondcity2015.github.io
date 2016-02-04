@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 
+article {
+	
+	margin: auto;
+	text-align: center;
+}
+
 body {
 
 }
