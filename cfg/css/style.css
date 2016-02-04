@@ -35,12 +35,12 @@ nav a{
 }
 
 nav a:hover{
-	background-color: #E8C66A;
+	background-color: #ff8e19;
 	color: #3AFF3C;
 }
 
 nav a:active{
-	background-color: #E8C66a;
+	background-color: #ff8e19;
 	color: #3AFF3C;
 }
 
