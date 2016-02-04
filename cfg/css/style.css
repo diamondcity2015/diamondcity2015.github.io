@@ -50,6 +50,10 @@ nav a:active{
 	color: #3AFF3C;
 }
 
+p {
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Pacifico' , sans-serif;
 }
