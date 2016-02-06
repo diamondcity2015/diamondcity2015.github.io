@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif);
 
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
 article {
 	
 	margin: auto;
@@ -186,4 +192,9 @@ h4{
 	p{
 		width: 75%;
 	}
+}
+
+@media only screen and (max-width: 650px) {
+
+	
 }
