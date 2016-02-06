@@ -186,7 +186,7 @@ h4{
 
 @media only screen and (max-width: 975px) {
 
-.imagelinks {
+.imagelinks img{
 	display: block;
 }
 }
