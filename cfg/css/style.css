@@ -83,6 +83,12 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	margin:auto;
+	text-align: center;
+}
+
+
 .clearfix:after {
 	clear: both;
 	content:' ';
@@ -92,8 +98,18 @@ h1 {
 	visibility: hidden;
 }
 
+.column {
+	float: left;
+	margin: 0;
+	padding: 5em;
+}
+
 @media only screen and (max-width: 650px) {
 	nav a {
 		display: block;
+	}
+
+	p{
+		width: 75%;
 	}
 }
