@@ -93,6 +93,9 @@ h3 {
 	text-align: center;
 }
 
+#column1 {
+	width: 15%;
+}
 
 .clearfix:after {
 	clear: both;
