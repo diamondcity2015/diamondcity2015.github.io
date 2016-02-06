@@ -27,6 +27,10 @@ footer {
 	text-align: center;
 }
 
+footer a {
+	padding: 1em;
+}
+
 header{
 	margin:auto;
 	text-align: center;
@@ -165,7 +169,7 @@ h4{
 
 .column {
 	float: left;
-	margin: auto;
+	margin: 0;
 	padding: 5em;
 }
 
