@@ -8,6 +8,10 @@ article {
 	text-align: center;
 }
 
+article a{
+	display: block;
+}
+
 aside {
 	margin: auto;
 	padding: 3em;
@@ -69,6 +73,10 @@ section {
 	margin: auto;
 	padding: 3em;
 	text-align: center;
+}
+
+section a {
+	display: block;
 }
 
 p {
