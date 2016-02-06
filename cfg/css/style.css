@@ -93,7 +93,28 @@ h3 {
 	text-align: center;
 }
 
+
 #column1 {
+	width: 15%;
+}
+
+#column2 {
+	width: 15%;
+}
+
+#column3 {
+	width: 15%;
+}
+
+#column4 {
+	width: 15%;
+}
+
+#column5 {
+	width: 15%;
+}
+
+#column6 {
 	width: 15%;
 }
 
