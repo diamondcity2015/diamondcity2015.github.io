@@ -43,8 +43,9 @@ header img {
 }
 
 main {
-	text-align: center;
+	margin: auto;
 	padding: 3em;
+	text-align: center;
 	width: 55%;
 }
 
