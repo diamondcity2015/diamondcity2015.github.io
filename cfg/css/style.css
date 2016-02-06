@@ -77,6 +77,11 @@ p {
 	width: 50%;
 }
 
+ul {
+	margin: auto;
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Pacifico' , sans-serif;
 	margin:auto;
