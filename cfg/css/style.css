@@ -184,6 +184,13 @@ h4{
 	float: left;
 }
 
+@media only screen and (max-width: 975px) {
+
+.imagelinks {
+	display: block;
+}
+}
+
 @media only screen and (max-width: 650px) {
 	nav a {
 		display: block;
@@ -194,7 +201,3 @@ h4{
 	}
 }
 
-@media only screen and (max-width: 650px) {
-
-
-}
