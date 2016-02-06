@@ -95,27 +95,27 @@ h3 {
 
 
 #column1 {
-	width: 15%;
+	width: 10%;
 }
 
 #column2 {
-	width: 15%;
+	width: 10%;
 }
 
 #column3 {
-	width: 15%;
+	width: 10%;
 }
 
 #column4 {
-	width: 15%;
+	width: 10%;
 }
 
 #column5 {
-	width: 15%;
+	width: 10%;
 }
 
 #column6 {
-	width: 15%;
+	width: 10%;
 }
 
 .clearfix:after {
@@ -128,7 +128,7 @@ h3 {
 }
 
 .column {
-	display: inline;
+	float: left;
 	margin: 0;
 	padding: 5em;
 }
