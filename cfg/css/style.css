@@ -195,7 +195,9 @@ h4{
 	float: left;
 }
 
-
+.message  {
+	text-align: justify;
+}
 
 @media only screen and (max-width: 975px) {
 
