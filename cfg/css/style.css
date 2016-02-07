@@ -217,7 +217,7 @@ h4{
 	}
 
 	#column1,#column2,#column3,#column4,#column5,#column6{
-		min-width: 50px;
+		
 		width: 30%;
 	}
 }
@@ -225,11 +225,8 @@ h4{
 	@media only screen and (max-width: 600px) {
 	aside img{
 		min-height: 200px;
-		min-width: 100px;
+		
 }
-	.pastor img{
-		min-height: 200px;
-		min-width: 100px;
-} 
+	
 
 }
