@@ -205,5 +205,9 @@ h4{
 	p{
 		width: 75%;
 	}
+
+	#column1,#column2,#column3,#column4,#column5,#column6{
+		width: 20%;
+	}
 }
 
