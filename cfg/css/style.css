@@ -215,5 +215,10 @@ h4{
 		min-width: 50px;
 		width: 30%;
 	}
+
+	@media only screen and (max-width: 350px) {
+	aside img{
+		min-height: 125px;
+		min-width: 125px;
 }
 
