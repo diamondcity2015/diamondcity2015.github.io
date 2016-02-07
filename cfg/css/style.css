@@ -195,10 +195,7 @@ h4{
 	float: left;
 }
 
-.pastor img{
-	min-height: 250px;
-	min-width: 250px;
-}
+
 
 @media only screen and (max-width: 975px) {
 
@@ -218,8 +215,8 @@ h4{
 
 	#column1,#column2,#column3,#column4,#column5,#column6{
 		
-		width: 30%;
-		padding: none;
+		width: 10%;
+		padding: 1em;
 	}
 }
 
