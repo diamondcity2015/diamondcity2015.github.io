@@ -295,13 +295,20 @@ label[for="nav-trigger"] {
         
 }
 
-#column1,#column2,#column3,#column4,#column5,#column6{
+    #column1,#column2,#column3,#column4,#column5,#column6{
         
         display: block;
         padding: 1em;
         width: 50%;
     }
 }
-    
+  
+    @media only screen and (max-width: 460px) {  
 
+    #column1,#column2,#column3,#column4,#column5,#column6{
+        
+        display: block;
+        padding: 1em;
+        width: 60%;
+}
 }
