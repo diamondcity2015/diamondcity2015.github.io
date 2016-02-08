@@ -194,7 +194,7 @@ h4{
 }
 
 #jackie:hover > h3 {
-	opacity: 1;
+	opacity: 0;
 }
 
 .clearfix:after {
