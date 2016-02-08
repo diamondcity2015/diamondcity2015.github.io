@@ -283,9 +283,9 @@ label[for="nav-trigger"] {
     }
 
     #column1,#column2,#column3,#column4,#column5,#column6{
-        
+         padding: 1em;
         width: 30%;
-        padding: 1em;
+       
     }
 }
 
@@ -297,8 +297,9 @@ label[for="nav-trigger"] {
 
 #column1,#column2,#column3,#column4,#column5,#column6{
         
-        width: 50%;
+        display: block;
         padding: 1em;
+        width: 50%;
     }
 }
     
