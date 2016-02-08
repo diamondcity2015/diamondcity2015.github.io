@@ -299,6 +299,7 @@ label[for="nav-trigger"] {
         
         display: block;
         padding: 1em;
+        text-align: center;
         width: 65%;
     }
 }
@@ -309,6 +310,7 @@ label[for="nav-trigger"] {
         
         display: block;
         padding: 1em;
+        text-align: center;
         width: 75%;
 }
 }
