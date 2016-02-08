@@ -294,6 +294,13 @@ label[for="nav-trigger"] {
         min-height: 200px;
         
 }
+
+#column1,#column2,#column3,#column4,#column5,#column6{
+        
+        width: 50%;
+        padding: 1em;
+    }
+}
     
 
 }
