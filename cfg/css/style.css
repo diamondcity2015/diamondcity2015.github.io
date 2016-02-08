@@ -182,7 +182,15 @@ h4{
 	top: 50%;
 	left: 50%;
 	-webkit-transform:translateX(-50%);
+	-moz-webkit-transform:translateX(-50%);
+	-o-webkit-transform:translateX(-50%);
+	-ms--webkit-transform:translateX(-50%);
 	-webkit-transition:opacity ease-in-out .5s;
+	-moz-webkit-transition:opacity ease-in-out .5s;
+	-o-webkit-transition:opacity ease-in-out .5s;
+	-ms-webkit-transition:opacity ease-in-out .5s;
+	
+	
 }
 
 #jackie:hover > h3 {
