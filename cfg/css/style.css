@@ -176,26 +176,6 @@ h4{
 	width: 30%;
 }
 
-#jackie  h3{
-	opacity: 1;
-	position: absolute;
-	top: 10%;
-	left: 5%;
-	-webkit-transform:translateX(-50%);
-	-moz-webkit-transform:translateX(-50%);
-	-o-webkit-transform:translateX(-50%);
-	-ms--webkit-transform:translateX(-50%);
-	-webkit-transition:opacity ease-in-out .5s;
-	-moz-webkit-transition:opacity ease-in-out .5s;
-	-o-webkit-transition:opacity ease-in-out .5s;
-	-ms-webkit-transition:opacity ease-in-out .5s;
-	
-	
-}
-
-#jackie:hover > h3 {
-	opacity: 1;
-}
 
 
 
@@ -219,9 +199,7 @@ h4{
 	float: left;
 }
 
-.message  {
-	text-align: justify;
-}
+
 
 @media only screen and (max-width: 975px) {
 
