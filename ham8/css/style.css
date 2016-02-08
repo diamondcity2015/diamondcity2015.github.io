@@ -1,0 +1,240 @@
+/* line 17, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Users/gtg716g/.rvm/gems/ruby-2.0.0-p195@nightsprout/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+html {
+  height: 100%;
+}
+
+/* line 8, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+body {
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 320px;
+}
+
+/* line 16, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+h3 {
+  margin: 0 0 20px 0;
+}
+
+/* line 17, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+p {
+  margin: 0 0 20px 0;
+}
+
+/* line 19, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+#hamburger-icon {
+  display: none;
+  float: left;
+  width: 100%;
+  height: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 20px;
+  line-height: 50px;
+  background: #cccccc;
+  cursor: pointer;
+  position: fixed;
+  z-index: 10;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  -o-transition-delay: 0;
+  transition-delay: 0;
+}
+@media (max-width: 767px) {
+  /* line 19, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  #hamburger-icon {
+    display: block;
+  }
+}
+
+/* line 41, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+nav {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 100px;
+  margin: 0 0 20px 0;
+  line-height: 50px;
+  background: #cccccc;
+  position: fixed;
+  z-index: 7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 767px) {
+  /* line 41, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  nav {
+    height: 100%;
+    padding: 0 20px;
+    z-index: 1;
+    background: #808080;
+  }
+}
+/* line 58, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+nav a#home-logo {
+  display: block;
+  float: left;
+}
+/* line 62, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+nav ul {
+  display: block;
+  float: right;
+}
+@media (max-width: 767px) {
+  /* line 62, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  nav ul {
+    display: block;
+    float: left;
+    width: 100%;
+    line-height: 40px;
+  }
+}
+/* line 71, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+nav ul > li {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  /* line 71, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  nav ul > li {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 78, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  nav ul > li > a {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+}
+
+/* line 90, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+body.nav-expanded #page-content {
+  left: 75%;
+}
+/* line 93, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+body.nav-expanded #hamburger-icon {
+  left: 75%;
+}
+
+/* line 99, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+#page-content {
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  padding: 70px 100px 40px 100px;
+  background: #ffffff;
+  position: relative;
+  z-index: 5;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 0 7px black;
+  -moz-box-shadow: 0 0 7px black;
+  box-shadow: 0 0 7px black;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  -o-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  -o-transition-delay: 0;
+  transition-delay: 0;
+}
+@media (max-width: 767px) {
+  /* line 99, /Users/gtg716g/Desktop/Jason/Rails/nightsprout/app/assets/stylesheets/blog/hamburger.scss */
+  #page-content {
+    padding: 70px 20px 40px 20px;
+  }
+}
