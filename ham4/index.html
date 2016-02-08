@@ -5,29 +5,19 @@
 	<title></title>
 </head>
 <body>
-	 <div class="desktop-menu"><a href="http://www.doinbound.com">Home</a> <a href="http://www.doinbound.com/tour">Tour</a> <a href="http://www.doinbound.com/about">About</a> <a href="http://www.doinbound.com/contact">Contact</a> <a href="http://www.doinbound.com/blog">Blog</a> <a class="sign-up-nav" href="http://www.doinbound.com/get-started">Get Started</a></div>
-
-<script>
-$(document).ready(function() {
-$('#right-menu').sidr({
-name: 'sidr-right',
-side: 'right',
-});
-});
-</script>
-
-<div class="mobile-menu-trigger"><a id="right-menu" href="#right-menu" class="mobile-menu">Menu <i class="fa fa-bars"></i></a></div>
-
-<div id="sidr-right">
-<ul>
-<li><a href="http://www.doinbound.com"><i class="fa fa-home"> </i> Home</a></li>
-<li><a href="http://www.doinbound.com/tour"><i class="fa fa-car"> </i> Tour</a></li>
-<li><a href="http://www.doinbound.com/about"><i class="fa fa-heart"> </i> About</a></li>
-<li><a href="http://www.doinbound.com/contact"><i class="fa fa-envelope"> </i> Contact</a></li>
-<li><a href="http://www.doinbound.com/blog"><i class="fa fa-tags"> </i> Blog</a></li>
-<li><a class="sign-up-nav" href="http://www.doinbound.com/get-started">Get Started<i class="fa fa-chevron-right"></i></a></li>
-<li></li>
+	 <ul class="navigation">
+    <li class="nav-item"><a href="#">Home</a></li>
+    <li class="nav-item"><a href="#">Portfolio</a></li>
+    <li class="nav-item"><a href="#">About</a></li>
+    <li class="nav-item"><a href="#">Blog</a></li>
+    <li class="nav-item"><a href="#">Contact</a></li>
 </ul>
-</div> 
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div class="site-wrap">
+    <!-- insert the rest of your page markup here -->
+</div>
 
 </body>
