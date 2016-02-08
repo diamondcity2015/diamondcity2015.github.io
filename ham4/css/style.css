@@ -220,6 +220,7 @@ label[for="nav-trigger"] {
 .navigation {
     list-style: none;
     background: #111;
+    color: #ffffff;
     width: 100%;
     height: 100%;
     position: fixed;
