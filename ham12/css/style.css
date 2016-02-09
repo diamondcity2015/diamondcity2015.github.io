@@ -23,7 +23,8 @@ body {
 }
 
 header img {
-  margin: auto;
+  
+  text-align: center;
   width: 90%;
 }
 
