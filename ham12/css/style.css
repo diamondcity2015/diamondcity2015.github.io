@@ -230,7 +230,7 @@ nav li:last-child {
     }
 }
 
- @media only screen and (max-width: 490px) {  
+ @media only screen and (max-width: 481px) {  
 
     #column1,#column2,#column3,#column4,#column5,#column6{
         
