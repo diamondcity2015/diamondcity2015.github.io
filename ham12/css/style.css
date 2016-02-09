@@ -23,6 +23,7 @@ article {
 
 article a{
   display: block;
+  margin: auto;
   text-align: center;
 }
 
@@ -73,6 +74,7 @@ section {
 
 section a {
   display: block;
+  margin: auto;
   text-align: center;
 }
 
