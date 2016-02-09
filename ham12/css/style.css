@@ -23,6 +23,7 @@ article {
 
 article a{
   display: block;
+  text-align: center;
 }
 
 aside {
@@ -72,6 +73,7 @@ section {
 
 section a {
   display: block;
+  text-align: center;
 }
 
 p {
