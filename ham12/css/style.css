@@ -253,7 +253,7 @@ nav li:last-child {
  
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
   
   .hamburger {
     padding: 15px;
