@@ -46,6 +46,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+  padding: 3em;
+  text-align: center;
+}
+
+footer a {
+  padding: 1em;
+}
+
 header img {
   
   
