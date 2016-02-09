@@ -287,6 +287,8 @@ nav li:last-child {
     #column1,#column2,#column3,#column4,#column5,#column6{
         
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         padding: 1em;
         position: center;
         text-align: center;
