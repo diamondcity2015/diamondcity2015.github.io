@@ -28,6 +28,13 @@ header img {
   width: 100%;
 }
 
+main {
+  margin: auto;
+  padding: 3em;
+  text-align: center;
+  width: 55%;
+}
+
 nav {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
