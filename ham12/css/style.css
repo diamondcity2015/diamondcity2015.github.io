@@ -275,6 +275,7 @@ nav li:last-child {
         
         display: block;
         padding: 1em;
+        position: center;
         text-align: center;
         width: 85%;
 } 
