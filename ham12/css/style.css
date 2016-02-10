@@ -155,42 +155,42 @@ nav li:last-child {
 }
 
 #column1 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
 }
 
 #column2 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
 }
 
 #column3 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
 }
 
 #column4 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
 }
 
 #column5 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
 }
 
 #column6 {
-  background-color: #8BF5FF;
+  /*background-color: #8BF5FF;*/
   border:1px black solid;
   padding: 2em;
   width: 30%;
@@ -207,7 +207,10 @@ nav li:last-child {
 }
 
 .column {
-  
+  background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
   margin: auto;
   padding: 5em;
 }
