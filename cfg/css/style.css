@@ -223,7 +223,9 @@ h4{
 
 	@media only screen and (max-width: 600px) {
 	
-}
+	nav a {
+		display: block;
+	}
 
 	#column1,#column2,#column3,#column4,#column5,#column6{
         
