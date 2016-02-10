@@ -65,6 +65,7 @@ nav {
 	background: -webkit-linear-gradient(left, #B68632 , #E7BA77);
 	background: -moz-linear-gradient(left, #B68632 , #E7BA77);
 	background: -o-linear-gradient(left, #B68632 , #E7BA77);
+	background: -ms-linear-gradient(left, #B68632 , #E7BA77);
 	/*background-color: #F3C383;*/
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
