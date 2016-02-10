@@ -61,7 +61,8 @@ main {
 }
 
 nav {
-	background-color: #F3C383;
+	background: -webkit-linear-gradient(left, brown , yellow);
+	/*background-color: #F3C383;*/
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 2px;
