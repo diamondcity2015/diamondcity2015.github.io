@@ -61,7 +61,7 @@ main {
 }
 
 nav {
-	background-color: #Edc617;
+	background-color: #A67B2C;
 	border: 1px black solid;
 	font-family: 'Noto Serif', serif;
 	letter-spacing: 2px;
@@ -207,9 +207,7 @@ h4{
 }
 
 @media only screen and (max-width: 750px) {
-	nav a {
-		display: block;
-	}
+	
 
 	p{
 		width: 75%;
@@ -223,9 +221,7 @@ h4{
 }
 
 	@media only screen and (max-width: 600px) {
-	aside img{
-		min-height: 200px;
-		
+	
 }
 
 	#column1,#column2,#column3,#column4,#column5,#column6{
