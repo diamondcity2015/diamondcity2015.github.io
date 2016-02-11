@@ -250,6 +250,10 @@ nav li:last-child {
     main {
       width: 80%;
     }
+
+    nav a {
+    display: block;
+  }
   
 }
 
