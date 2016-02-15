@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 body  {
-	
+	background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  	background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  	background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  	background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
   	font-size: 16px;
 }
 
