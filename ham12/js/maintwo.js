@@ -2,7 +2,7 @@ function init() {
   var mapOptions = {                                 // Set up the map options
     center: new google.maps.LatLng(36.249927, -85.953282),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    zoom: 10
+    zoom: 16
   };
   var venueMap;                                      // Map() draws a map
   venueMap = new google.maps.Map(document.getElementById('map'), mapOptions);
