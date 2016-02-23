@@ -203,7 +203,11 @@ nav li:last-child {
   width: 30%;
 }
 
+#map {
+  height: 5em;
+  width: 5em;
 
+}
 
 
 
