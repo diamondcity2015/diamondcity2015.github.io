@@ -242,6 +242,11 @@ nav li:last-child {
 .imagelinks img{
   display: block;
 }
+
+#facebook {
+  padding: 4em 0 4em 15em;
+}
+
 }
 
 @media only screen and (max-width: 750px) {
