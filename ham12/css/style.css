@@ -207,7 +207,8 @@ nav li:last-child {
   display: block;
   margin-left:auto;
   margin-right:auto;
-  padding: 0 25em 3em 25em;
+  text-align: center;
+  
 }
 
 #map {
