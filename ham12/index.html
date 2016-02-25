@@ -3,9 +3,15 @@
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Social-feed css -->
+  <link href="bower_components/social-feed/css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+  <!-- font-awesome for social network icons -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
   <meta charset="utf-8">
   <title>CFGC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
   
   
@@ -92,6 +98,22 @@
       </ul>
 
     </main> 
+
+    <div class="social-feed-container"></div>
+    <!-- jQuery -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Codebird.js - required for TWITTER -->
+    <script src="bower_components/codebird-js/codebird.js"></script>
+    <!-- doT.js for rendering templates -->
+    <script src="bower_components/doT/doT.min.js"></script>
+    <!-- Moment.js for showing "time ago" and/or "date"-->
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <!-- Moment Locale to format the date to your language (eg. italian lang)-->
+    <script src="bower_components/moment/locale/it.js"></script>
+    <!-- Social-feed js -->
+    <script src="bower_components/social-feed/js/jquery.socialfeed.js"></script>
+    <script src="js/social.js"></script>
+    <script src="js/socialfeed.js"></script>
     <hr>
 
     <aside class="clearfix">

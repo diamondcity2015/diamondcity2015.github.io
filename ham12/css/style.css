@@ -228,6 +228,14 @@ nav li:last-child {
   padding: 5em;
 }
 
+.social-feed-container {
+    height: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em; 
+
+}
+
 @media only screen and (max-width: 975px) {
 
 .imagelinks img{
