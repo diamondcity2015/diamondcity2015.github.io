@@ -252,11 +252,11 @@ nav li:last-child {
 @media only screen and (max-width: 750px) {
   
   main {
-    width: 96%;
+    width: 98%;
   }
 
   p{
-    width: 96%;
+    width: 98%;
   }
 
   #column1,#column2,#column3,#column4,#column5,#column6{
