@@ -204,6 +204,7 @@ nav li:last-child {
 }
 
 #facebook {
+  display: block;
   margin-left:auto;
   margin-right:auto;
   padding: 0 25em 3em 25em;
