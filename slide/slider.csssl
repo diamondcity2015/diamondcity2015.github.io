@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>2.1</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>true</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>slider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>kenburns</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/utter/</ImageTemplate>
+            <ImageTemplateName>Utter</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PlayPause>true</PlayPause>
+            <PublishFileName>/Users/applemac2015/Documents/diamondcity2015.github.io/slide/css/cssslider.html</PublishFileName>
+            <PublishIndex>cssslider.html</PublishIndex>
+            <PublishPath>/Users/applemac2015/Documents/diamondcity2015.github.io/slide/css</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>true</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>60</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateFont>Montserrat</TemplateFont>
+            <TemplateName>utter</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkImage></WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>cssSlider.com</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <color>#ffffff</color>
+            <descriptionPos>bottomLeft</descriptionPos>
+            <enableTouch>false</enableTouch>
+            <fullWidth>0</fullWidth>
+            <ieSupport>true</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>true</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/applemac2015/Desktop/Screen Shot 2015-12-08 at 5.58.25 PM.png</url>
+                <title>Screen Shot 2015-12-08 at 5.58.25 PM</title>
+            </Image>
+            <Image>
+                <url>/Users/applemac2015/Desktop/Screen Shot 2015-11-22 at 12.58.13 PM.png</url>
+                <title>Screen Shot 2015-11-22 at 12.58.13 PM</title>
+            </Image>
+            <Image>
+                <url>/Users/applemac2015/Desktop/Screen Shot 2015-12-16 at 2.58.42 PM.png</url>
+                <title>Screen Shot 2015-12-16 at 2.58.42 PM</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
