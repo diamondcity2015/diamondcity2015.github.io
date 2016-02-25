@@ -1,3 +1,50 @@
+#slideshow {
+  width: 900px;
+  height: 304px;
+  margin: 10px auto 0 auto;
+}
+
+#slideshow .Wrapper-slideshow {
+  width: 900px;
+  height: 304px;
+  float: left;
+  overflow: hidden;
+}
+
+#slideshow .Content-slideshow {
+  height: 304px;
+}
+
+#Nav-slideshow {
+  width: 600px;
+  height: 30px;
+  margin: -30px 0 0 10px;
+  position: absolute;
+  z-index: 10;
+}
+
+#Nav-slideshow a {
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  color: #666;
+  background: #666;
+  border: 1px solid #ccc;
+  display: block;
+  margin: 0 10px;
+  float: left;
+}
+
+#Nav-slideshow a.activeSlide{
+  background: #222;
+  border: 3px solid #eee;
+  -moz-border-radius: 8px;
+  margin: -2px 8px;
+}
+
 .gradient-icon {
     height:50px;
     background:linear-gradient(to bottom, #fff 0%, #fff 20%, transparent 20%, transparent 40%, #fff 40%, #fff 60%, transparent 60%, transparent 80%, #fff 80%, #fff 100%);
