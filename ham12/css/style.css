@@ -181,6 +181,13 @@ nav li:last-child {
   border-right: none;
 }
 
+#blue {
+  background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
+}
+
 #column1 {
   /*background-color: #8BF5FF;*/
   border:1px black solid;
