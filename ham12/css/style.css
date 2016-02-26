@@ -50,6 +50,10 @@ body {
 }
 
 footer {
+  background: -webkit-linear-gradient(left, #D1CB0A, #F2EB0C, #F2FF0C);
+  background: -moz-linear-gradient(left, #D1CB0A ,  #F2EB0C, #F2FF0C);
+  background: -o-linear-gradient(left, #D1CB0A ,  #F2EB0C, #F2FF0C);
+  background: -ms-linear-gradient(left, #D1CB0A,  #F2EB0C, #F2FF0C);
   padding: 3em;
   text-align: center;
 }
