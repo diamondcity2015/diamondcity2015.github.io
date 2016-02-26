@@ -69,11 +69,16 @@ header img {
 }
 
 main {
-  background-color:#def;
-  background-image: radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%),
-  radial-gradient(closest-side, transparent 98%, rgba(0,0,0,.3) 99%);
-  background-size:80px 80px;
-  background-position:0 0, 40px 40px;
+  background:
+  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  color: white;
   margin: auto;
   padding: 3em;
   text-align: center;
