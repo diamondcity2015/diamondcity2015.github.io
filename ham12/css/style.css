@@ -232,7 +232,16 @@ nav li:last-child {
 
 }
 
-
+#yellow  {
+  background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+  text-align: center;
+}
 
 .clearfix:after {
   content: "";
