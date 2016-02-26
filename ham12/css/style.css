@@ -188,6 +188,10 @@ nav li:last-child {
   background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
 }
 
+#cloud  {
+  background-image: images("cloud.jpeg");
+}
+
 #column1 {
   /*background-color: #8BF5FF;*/
   border:1px black solid;
