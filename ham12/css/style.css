@@ -189,7 +189,7 @@ nav li:last-child {
 }
 
 #cloud  {
-  background-image: url("images/cloud.jpeg");
+  background-image: url(images/cloud.jpeg);
 }
 
 #column1 {
