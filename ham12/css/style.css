@@ -240,6 +240,10 @@ nav li:last-child {
 }
 
 .css-slideshow{
+  background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
   position: relative;
   max-width: 495px;
   height: 370px;
