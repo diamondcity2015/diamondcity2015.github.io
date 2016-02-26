@@ -107,6 +107,7 @@ p {
 }
 
 ul {
+  font: 'Pacifico', sans-serif;;
   list-style: none;
   max-width: 800px;
   margin: 0 auto;
