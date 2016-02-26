@@ -211,6 +211,10 @@ nav li:last-child {
 }
 
 #map {
+  background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+  background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
   height: 20em;
   margin-left: auto;
   margin-right: auto;
