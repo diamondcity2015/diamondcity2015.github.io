@@ -113,7 +113,7 @@ section a {
 p {
   margin: auto;
   text-align: center;
-  width: 50%;
+  width: 70%;
 }
 
 ul {
@@ -243,7 +243,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 
 #facebook {
   display: block;
-  padding:5em 0 5em 24em;
+  padding:5em 0 5em 21em;
   text-align: center;
   
 }
