@@ -249,6 +249,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background: -webkit-linear-gradient(top, #3b5998, #2b4170);
   border: 1px solid #2b4170;
   color: white;
+  padding: 2em 0 0 0;
   text-align: center;
   
 }
