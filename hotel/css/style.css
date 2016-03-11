@@ -11,12 +11,13 @@ footer  {
 
 
 header   {
-background-color:white;
-background-image:
-radial-gradient(midnightblue 9px, transparent 10px),        
-repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
-background-size: 30px 30px, 90px 90px; 
-background-position: 0 0;
+background-color: silver;
+background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px),
+linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px);
+background-size: 58px 58px;	
+background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
 color: white;
 height: 5em;
 
