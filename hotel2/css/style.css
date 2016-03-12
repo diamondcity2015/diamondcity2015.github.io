@@ -9,10 +9,10 @@ p 									{ margin: 15px 0; }
 #page-wrap							{ width: 800px; margin: 25px auto; } 
 
 footer {
-  background: -webkit-linear-gradient(left,  #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
-  background: -moz-linear-gradient(left,  #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
-  background: -o-linear-gradient(left, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
-  background: -ms-linear-gradient(left,  #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -o-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -ms-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C);
   padding: 3em;
   text-align: center;
 }
