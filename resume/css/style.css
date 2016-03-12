@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 body  {
-	background: -webkit-linear-gradient(left, #6EC2C9 , #72CAD1, #8bf5ff);
-  	background: -moz-linear-gradient(left, #6EC2C9 , #72CAD1, #8bf5ff);
-  	background: -o-linear-gradient(left, #6EC2C9 , #72CAD1, #8bf5ff);
-  	background: -ms-linear-gradient(left, #6EC2C9 , #72CAD1, #8bf5ff);
-  	font-size: 16px;
-}
+  background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+  font-size: 16px;
+  padding: 3em;
+  text-align: center;
+ } 	
 
 footer {
 	text-align: center;
