@@ -9,10 +9,10 @@ p 									{ margin: 15px 0; }
 #page-wrap							{ width: 800px; margin: 25px auto; } 
 
 footer {
-  background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C,  #1DF54A, #23B8FA, #11BFE5);
-  background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5);
-  background: -o-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5);
-  background: -ms-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5);
+  background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C,  #1DF54A, #23B8FA, #11BFE5, #0FA3C4);
+  background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -o-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -ms-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
   padding: 3em;
   text-align: center;
 }
