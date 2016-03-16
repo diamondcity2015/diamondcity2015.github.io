@@ -261,6 +261,10 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   
 }
 
+#forms    {
+  text-align:  center;
+}
+
 #map {
   background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
   background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
