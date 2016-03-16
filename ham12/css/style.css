@@ -265,6 +265,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   margin-left: auto;
   margin-right: auto;
   padding: 3em 0 3em 0;
+  text-align: center;
   
 }
 
@@ -295,6 +296,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   padding: 5em;
   text-align: center;
   width: 55%;
+}
+
+#submit   {
+  position:  absolute;
+  top: 50%;
 }
 
 #yellow  {
