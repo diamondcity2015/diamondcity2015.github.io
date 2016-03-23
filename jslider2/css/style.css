@@ -21,6 +21,10 @@
     width: 640px;
 }
 
+.container  {
+    text-align: center;
+}
+
 /* helper css, since we don't have images */
 .slide1 {background: red;}
 .slide2 {background: blue;}
