@@ -23,11 +23,13 @@ footer a {
 
 
 main img  {
-	float: left;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 6em 0 3em 15em;
-
+   height: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6em 0 3em 15em;
+    text-align: center;
+    width: 800px;
+	
 }
 
 h1 {
@@ -49,11 +51,7 @@ h1 {
 }
 
 #hotel  {
-    height: 534px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 800px;
+   
 }
 
 .clearfix:after {
