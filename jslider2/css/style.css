@@ -1,22 +1,24 @@
 #slider {
-    width: 640px;
     height: 360px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
+    width: 640px;
 }
 
 #slider .slides {
     display: block;
-    width: 6000px;
     height: 360px;
     margin: 0;
     padding: 0;
+    width: 6000px;
 }
 
 #slider .slide {
     float: left;
+    height: 360px;
     list-style-type: none;
     width: 640px;
-    height: 360px;
 }
 
 /* helper css, since we don't have images */
