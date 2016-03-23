@@ -1,13 +1,13 @@
 #slider {
     width: 640px;
-    height: 480px;
+    height: 360px;
     overflow: hidden;
 }
 
 #slider .slides {
     display: block;
     width: 6000px;
-    height: 480px;
+    height: 360px;
     margin: 0;
     padding: 0;
 }
@@ -16,7 +16,7 @@
     float: left;
     list-style-type: none;
     width: 640px;
-    height: 480px;
+    height: 360px;
 }
 
 /* helper css, since we don't have images */
