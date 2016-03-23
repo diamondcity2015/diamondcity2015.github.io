@@ -53,6 +53,47 @@ h1 {
   clear: both;
 }
 
+/*  slide show   */
+#slider {
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 640px;
+}
+
+#slider .slides {
+    display: block;
+    height: 360px;
+    margin: 0;
+    padding: 0;
+    width: 6000px;
+}
+
+#slider .slide {
+    float: left;
+    height: 360px;
+    list-style-type: none;
+    width: 640px;
+}
+
+.container  {
+    text-align: center;
+}
+
+/* helper css, since we don't have images */
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+.slide6 {background: red;}
+.slide7 {background: blue;}
+.slide8 {background: green;}
+.slide9 {background: purple;}
+
+/* end slide show*/
+
 /* 
 	LEVEL ONE
 */
