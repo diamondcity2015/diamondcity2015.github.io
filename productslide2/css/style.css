@@ -6,6 +6,12 @@ h1   {
 	text-align: center;
 }
 
+#topic    {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .mi-slider {
 	position: relative;
 	margin-top: 30px;
