@@ -75,6 +75,10 @@ h2 {
    
 }
 
+#page-wrap   {
+  padding: 0 0 4em 0;
+}
+
 .clearfix:after {
   content: "";
   display: table;
