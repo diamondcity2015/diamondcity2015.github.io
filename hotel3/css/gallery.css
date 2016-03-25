@@ -1,0 +1,44 @@
+*   {
+	margin:  0;
+	padding: 0;
+}
+
+html   {
+	background:  white;
+	min-height:  100%;
+}
+
+.gallery   {
+	text-align:  center;
+}
+
+.current-image-wrapper   {
+	background-position:  50% 50%;
+	background-repeat: no-repeat;
+}
+
+.current-image-wrapper img    {
+	display:  block;
+	margin: 0 auto;
+	max-width: 100%;
+	opacity:  1;
+	transition: opacity   1.85s;
+}
+
+.current-image-wrapper .hideme   {
+	opacity: 0
+	transition: opacity 0s;
+}
+
+.thumbnails li,
+.thumbnails a,
+.thumbnails img   {
+	border:  none;
+	display: inline-block;
+	height: 3em;
+	width: 4.5em;
+}
+
+.thumbnails a   {
+	outline:  none;
+}

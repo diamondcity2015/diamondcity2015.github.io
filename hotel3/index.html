@@ -11,6 +11,7 @@
 	<title>Tokyo Hotel Website</title>
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/ie.css">
     <link rel="stylesheet" href="css/jquery-ui.min.css">
 	
@@ -153,6 +154,54 @@
         <img src="images/tokyohotel.jpeg"  alt="hotel">
     </main> 
     <br>
+
+/*   start gallery   */
+
+    <div id='gallery' class='gallery'>
+  <div id='lg-wrap' class='current-image-wrapper'>
+    <img id='large' data-idx='0' src='http://i.space.com/images/i/5886/i02/PIA01322-1920.jpg'>
+  </div>
+  <ul id='thumbnails' class='thumbnails'>
+    <li>
+      <a href='http://i.imgur.com/XpStPYl.jpg'>
+        <img data-idx='0' src='images/room.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/2jUBBFi.jpg'>
+        <img data-idx='1' src='images/room2.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/8OQaf54.jpg'>
+        <img data-idx='2' src='images/room3.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/yAhF4Ft.jpg'>
+        <img data-idx='3' src='images/room4.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/Wp7uCxc.jpg'>
+        <img data-idx='4' src='images/room5.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/Co7rvNs.jpg'>
+        <img data-idx='5' src='images/room6.jpeg'>
+      </a>
+    </li><!--
+    --><li>
+      <a href='http://i.imgur.com/8uxnpMW.jpg'>
+        <img data-idx='6' src='images/room7.jpeg'>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+/* end gallery  */
     <div class="container">
             <div class="header" class="clearfix">
                 <h2 class="text-muted">Tokyo Slide Show</h2>
@@ -179,6 +228,7 @@
         
     <br>
 
+
     <footer class="clearfix">
       <a href="https://www.facebook.com"> <i class="fa fa-facebook-square"></i></a>
       <a href="#"> <i class="fa fa-envelope-square"></i></a>
@@ -195,6 +245,7 @@
          
          <script src="js/main.js"></script>
          <script src="js/main2.js"></script>
+          <script src="js/main3.js"></script>
         <script src="js/jquery.catslider.js"></script>
         <script>
             $(function() {
