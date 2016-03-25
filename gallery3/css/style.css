@@ -1,0 +1,23 @@
+#photo-viewer   {
+	position: relative;
+}
+
+#photo-viewer.is-loading:after   {
+	content:  url(images/load.gif);
+	position:  absolute;
+	top:  0;
+	right:  0;
+}
+
+#photo-viewer  img   {
+	left: 50%;
+	max-height: 100%;
+	max-width: 100%;
+	position:  absolute;
+	top:  50%;
+
+}
+
+a.active   {
+	opacity:   0.3;
+}
