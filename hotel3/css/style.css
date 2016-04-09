@@ -43,17 +43,17 @@ footer a {
 }
 
 main   {
-  background: 
-  linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
-  linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
-  linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
-  linear-gradient(45deg, #ECEDDC 25%, transparent 25%); 
-  background-size: 100px 100px;
-  background-color: #EC173A;
-  margin-left: auto;
-  margin-right: auto;
-  
-  text-align: center;
+      background-color:white;
+      background-image:
+      radial-gradient(midnightblue 9px, transparent 10px),        
+      repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+      background-size: 30px 30px, 90px 90px; 
+      background-position: 0 0;
+
+      margin-left: auto;
+      margin-right: auto;
+      
+      text-align: center;
 
 }
 
