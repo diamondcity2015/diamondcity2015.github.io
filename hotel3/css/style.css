@@ -111,6 +111,10 @@ h2 {
     text-align: center;
 }
 
+#datepickerTool .datepicker-inline {
+  margin: 0 auto;
+}
+
 #hotel  {
    
 }
