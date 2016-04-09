@@ -19,6 +19,16 @@ aside   {
   text-align: center;
 }
 
+article  {
+      background-color:white;
+      background-image:
+      radial-gradient(midnightblue 9px, transparent 10px),        
+      repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+      background-size: 30px 30px, 90px 90px; 
+      background-position: 0 0;
+}
+
+
 footer {
   background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C,  #1DF54A, #23B8FA, #11BFE5, #0FA3C4);
   background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
