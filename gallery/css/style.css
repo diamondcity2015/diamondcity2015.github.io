@@ -1,3 +1,78 @@
+body   {
+	background-image:
+		-webkit-gradient(radial, 8 8,0, 8 8, 7,
+			color-stop(0.7, rgba(0,0,0,0)),
+			color-stop(0.8, #000000)),
+		-webkit-gradient(radial, 8 8,0, 8 8, 7,
+			color-stop(0.5, rgba(0,0,220,0)),
+			color-stop(0.7, rgba(0,0,220, 0.4))),
+		-webkit-gradient(radial, 64 64, 1000, 100 44, 40, 
+			from(#FF0080), color-stop(.6,#ECB7FC), to(#f09));
+		
+		
+		background-image: 
+	  -webkit-radial-gradient(circle,
+			rgba(0,0,0,0) 60%,
+			#000000 61%),
+		-webkit-radial-gradient(circle,
+			rgba(0,0,220,0) 55%,
+			rgba(0,0,220,0.4) 56%),
+	  	-webkit-radial-gradient(circle,
+			#FF0080 0%,
+			#ECB7FC 60%,
+			#f09 100%);
+		background-image: 
+	  -moz-radial-gradient(circle,
+			rgba(0,0,0,0) 60%,
+			#000000 61%),
+		-moz-radial-gradient(circle,
+			rgba(0,0,220,0) 55%,
+			rgba(0,0,220,0.4) 56%),
+	  	-moz-radial-gradient(circle,
+			#FF0080 0%,
+			#ECB7FC 60%,
+			#f09 100%);
+		background-image: 
+	  -ms-radial-gradient(circle,
+			rgba(0,0,0,0) 60%,
+			#000000 61%),
+		-ms-radial-gradient(circle,
+			rgba(0,0,220,0) 55%,
+			rgba(0,0,220,0.4) 56%),
+	  	-ms-radial-gradient(circle,
+			#FF0080 0%,
+			#ECB7FC 60%,
+			#f09 100%);
+		background-image: 
+	  -o-radial-gradient(circle,
+			rgba(0,0,0,0) 60%,
+			#000000 61%),
+		-o-radial-gradient(circle,
+			rgba(0,0,220,0) 55%,
+			rgba(0,0,220,0.4) 56%),
+	  	-o-radial-gradient(circle,
+			#FF0080 0%,
+			#ECB7FC 60%,
+			#f09 100%);
+		background-image: 
+	  	radial-gradient(circle,
+			rgba(0,0,0,0) 60%,
+			#000000 61%),
+		radial-gradient(circle,
+			rgba(0,0,220,0) 55%,
+			rgba(0,0,220,0.4) 56%),
+	  	radial-gradient(circle,
+			#FF0080 0%,
+			#ECB7FC 60%,
+			#f09 100%);
+		
+		-webkit-background-size: 15px 15px, 15px 15px,100%, 100%; /* safari 4 */
+		-moz-background-size: 15px 15px,15px 15px, 100%, 100%; /* FF 3.6 */
+		background-size: 15px 15px, 15px 15px,160%, 160%;
+		background-position: 0 0, 0 3px, 00;
+
+}
+
 #gallery {
 	float: left;
 	width: 90px;
