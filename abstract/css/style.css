@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+* 									{ margin: 0; padding: 0; }
+body								{ font: 14px Helvetica, Sans-Serif; } 
+
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+p 									{ margin: 15px 0; }
+#page-wrap							{ width: 800px; margin: 25px auto; } 
+
+aside   {
+  background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C,  #1DF54A, #23B8FA, #11BFE5, #0FA3C4);
+  background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -o-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -ms-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+}
+
+article  {
+      background-color:white;
+      background-image:
+      radial-gradient(midnightblue 9px, transparent 10px),        
+      repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+      background-size: 30px 30px, 90px 90px; 
+      background-position: 0 0;
+}
+
+
+footer {
+  background: -webkit-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C,  #1DF54A, #23B8FA, #11BFE5, #0FA3C4);
+  background: -moz-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -o-linear-gradient(left,   #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  background: -ms-linear-gradient(left,    #F2EB0C, #F2FF0C, #F2FF5C, #1DF54A, #23B8FA,  #11BFE5, #0FA3C4);
+  padding: 3em;
+  text-align: center;
+}
+
+footer a {
+  padding: 1em;
+}
+
+main   {
+      background-color:white;
+      background-image:
+      radial-gradient(midnightblue 9px, transparent 10px),        
+      repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+      background-size: 30px 30px, 90px 90px; 
+      background-position: 0 0;
+
+      margin-left: auto;
+      margin-right: auto;
+      
+      text-align: center;
+
+}
+
+
+
+main img  {
+    height: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 2em 0;
+    text-align: center;
+    width: 800px;
+	
+}
+
+section   {
+    background-color: #eee;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), 
+    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size:60px 60px;
+    background-position:0 0, 30px 30px;
+
+}
+
+h1 {
+  background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+  background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+  border: 2px black solid;
+  padding: 30px 0;
+  font: 1.5em 'Pacifico', sans-serif;
+
+  text-align: center;
+}
+
+h2 {
+  background: -webkit-linear-gradient(left, #8904B5, #9304C2, #B005E8, #A805F2, #70359E);
+  background: -moz-linear-gradient(left, #8904B5, #9304C2 ,  #B005E8, #A805F2, #70359E);
+  background: -o-linear-gradient(left, #8904B5, #9304C2,  #B005E8, #A805F2, #70359E);
+  background: -ms-linear-gradient(left, #8904B5, #9304C2,  #B005E8, #A805F2, #70359E);
+
+  color: white;
+  padding: 30px 0;
+  font: 1.5em 'Pacifico', sans-serif;
+
+  text-align: center;
+}
+
+#birthday  {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5em 0 0 0;
+    text-align: center;
+}
+
+#datepickerTool .datepicker-inline {
+  margin: 0 auto;
+}
+
+#hotel  {
+   
+}
+
+#page-wrap   {
+  padding: 0 0 6em 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*  slide show   */
+#slider {
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 640px;
+}
+
+#slider .slides {
+    display: block;
+    height: 360px;
+    margin: 0;
+    padding: 0;
+    width: 6000px;
+}
+
+#slider .slide {
+    float: left;
+    height: 360px;
+    list-style-type: none;
+    width: 640px;
+}
+
+.container  {
+    text-align: center;
+}
+
+/* helper css, since we don't have images */
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+.slide6 {background: red;}
+.slide7 {background: blue;}
+.slide8 {background: green;}
+.slide9 {background: purple;}
+
+/* end slide show*/
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; }
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: #ccc; }
+ul.dropdown a:hover		            { color: #000; }
+ul.dropdown a:active                { color: #ffa500; }
+ul.dropdown li a                    { display: block; padding: 4px 8px; border-right: 1px solid #333;
+	 								  color: #222; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #F3D673; color: black; position: relative; }
+ul.dropdown li.hover a              { color: black; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; }
+ul.dropdown ul li 					{ font-weight: normal; background: #f6f6f6; color: #000; 
+									  border-bottom: 1px solid #ccc; float: none; }
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+@media only screen and (max-width: 1100px) {  
+	main img  {
+	 display: block;
+	 padding: 0 0 2em 0;
+
+}
+
+@media only screen and (max-width: 800px) {  
+	main img  {
+	
+	padding: 0 0 2em 0;
+
+}
+
+}
