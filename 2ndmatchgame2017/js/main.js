@@ -36,9 +36,9 @@ function flipOverCard() {
     cardsInPlay = [];
   }
 
-  this.innerHTML = '<img src= "images/king.png"  alt="king"' + this.getAttribute('class') + '.png>';
+  this.innerHTML = '<img src= "images/king.png"  alt="king"' + this.getAttribute('class');
   cardsInPlay.push(this);
-  his.innerHTML = '<img src= "images/queen.png"  alt="queen" + this.getAttribute('class') + '.png>';
+  his.innerHTML = '<img src= "images/queen.png"  alt="queen" + this.getAttribute('class');
   cardsInPlay.push(this);
 
 
