@@ -36,8 +36,11 @@ function flipOverCard() {
     cardsInPlay = [];
   }
 
-  this.innerHTML = '<img src= "images/king.png"  alt="king"' , "images/queen.png"  alt="queen"+ this.getAttribute('class') + '.png>';
+  this.innerHTML = '<img src= "images/king.png"  alt="king"' + this.getAttribute('class') + '.png>';
   cardsInPlay.push(this);
+  his.innerHTML = '<img src= "images/queen.png"  alt="queen" + this.getAttribute('class') + '.png>';
+  cardsInPlay.push(this);
+
 
   if (cardsInPlay.length === 2) {
     numberOfMoves++;
