@@ -13,6 +13,6 @@ $('button').on('click', function () {
 
 	// Step 4: Prepend the following paragraph to the body element:
 	//    '<p>Done and Done!</p>'
-
+	$('body').prepend('<p>Done and DONE!</p>');
 
 });
