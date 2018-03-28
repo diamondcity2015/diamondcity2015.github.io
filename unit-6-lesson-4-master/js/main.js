@@ -9,7 +9,7 @@ $('button').on('click', function () {
 	$('img').attr('src', 'images/cat.jpeg');
 
 	// Step 3: Change the HTML for the h1 to "Having fun!" using the .html() method.
-
+	$('h1').html('Having fun!');
 
 	// Step 4: Prepend the following paragraph to the body element:
 	//    '<p>Done and Done!</p>'
