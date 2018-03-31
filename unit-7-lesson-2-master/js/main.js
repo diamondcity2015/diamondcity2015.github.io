@@ -8,7 +8,7 @@
 				// });
 		// You'll want to replace yourEventTypeWillGoHere with the type of event you're listening for.
 $(window).on('resize', function()  {
-	if ($(window).width() < 3500)					{
+	if ($(window).width() > 300)					{
 	$(body).addClass(snazzy);
 }
 
