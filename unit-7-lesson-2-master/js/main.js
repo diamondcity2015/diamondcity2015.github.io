@@ -27,3 +27,9 @@ $('button').on('mouseenter', function()  {
 // STEP 3: When the user scrolls down the window (hint our jquery selector will be $(window) like in example #1)
 	// a) Change the text in the h1 to "Scroll time!"
 	// b) Update the src for the img to 'images/outdoors.jpeg'
+$(window).on('scroll', function() {
+	$('h1').text('Scroll Time!');
+	$('img')
+
+
+});
