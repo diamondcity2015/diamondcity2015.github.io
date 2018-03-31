@@ -17,7 +17,12 @@ $(window).on('resize', function()  {
 // STEP 2. When the user's mouse enters #trigger (the yellow square)
 	// a) Add a <li> to the beginning of #myList that contains the text "1" (Hint: you'll need to use the prepend jquery method)
 	// b) Add a <li> to the end of #myList that contains the text "5" (Hint: you'll need to use the append jquery method)
+$('button').on('mouseenter', function()  {
+   $('li').prepend.html('1');
+    $('li').append.html('5');
+   
 
+});
 
 // STEP 3: When the user scrolls down the window (hint our jquery selector will be $(window) like in example #1)
 	// a) Change the text in the h1 to "Scroll time!"
