@@ -29,7 +29,7 @@ $('button').on('mouseenter', function()  {
 	// b) Update the src for the img to 'images/outdoors.jpeg'
 $(window).on('scroll', function() {
 	$('h1').text('Scroll Time!');
-	$('img')
+	$('img').html(src = 'images/outdoors.jpeg')
 
 
 });
