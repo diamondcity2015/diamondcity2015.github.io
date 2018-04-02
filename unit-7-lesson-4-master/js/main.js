@@ -20,7 +20,7 @@ $('input').on('click blur', function () {
 
 
 // Step 4: Hide the item with the id #menu
-$('#menu').hide;
+$('ul').hide;
 
 
 // Step 5: When the element with the id #dropdownButton is clicked,
