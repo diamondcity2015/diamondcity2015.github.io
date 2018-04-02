@@ -20,11 +20,14 @@ $('input').on('click blur', function () {
 
 
 // Step 4: Hide the item with the id #menu
-$('#menu').hide
+$('#menu').hide;
 
 
 // Step 5: When the element with the id #dropdownButton is clicked,
 	// a) slide toggle #menu (look up the slideToggle method if you need a refresher)
+$('#dropDownButton').on('click', function()  {
+	$('#menu').slideToggle(500);
+});
 
 
 
