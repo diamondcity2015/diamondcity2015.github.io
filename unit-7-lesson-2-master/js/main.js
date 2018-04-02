@@ -18,6 +18,7 @@ $(window).on('resize', function()  {
 	// a) Add a <li> to the beginning of #myList that contains the text "1" (Hint: you'll need to use the prepend jquery method)
 	// b) Add a <li> to the end of #myList that contains the text "5" (Hint: you'll need to use the append jquery method)
 $('#trigger').on('mouseenter', function()  {
+	console.log('Hello!');
    $('#mylist').prepend('<li>1</li>');
     $('#mylist').append('<li>5</li>');
    
