@@ -1,7 +1,7 @@
 // Step 1: When the user clicks on the h1
 	// a) Fade toggle the img (which is hidden with css by default)
-$('button').on('click',  Function()  {
-	$('img').fadeToggle();
+$('h1').on('click',  Function()  {
+	$('img').fadeToggle(500);
 
 });
 
