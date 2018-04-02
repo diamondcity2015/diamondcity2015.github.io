@@ -7,7 +7,7 @@ $('h1').on('click',  function ()  {
 
 // Step 2: When the user focuses on the input (the focus event)
 	// a) Add the active class to the input (which has been styled in the style.css)
-$('input').on('focus', function ()   {
+$('input').on('click focus', function ()   {
 	$('input').addClass('active');
 });
 
