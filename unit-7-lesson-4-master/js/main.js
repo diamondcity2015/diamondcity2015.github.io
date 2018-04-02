@@ -14,7 +14,9 @@ $('input').on('focus', function ()   {
 
 // Step 3: When the user clicks or tabs away from the input (the blur event)
 	// a) Remove the active class from the input
-
+$('input').on('click blur', function () {
+	$('input').removeClass('active');
+});
 
 
 // Step 4: Hide the item with the id #menu
