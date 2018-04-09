@@ -4,19 +4,19 @@
 // The documentation for this API, which contains an example of the response
 // that the API returns, can be found here: http://fixer.io/
 
-GET https://data.fixer.io/api/latest
+//GET https://data.fixer.io/api/latest
 
-{
-  "base": USD,
-  "date": "2018-02-13",
-  "rates": {
-     "CAD": 1.260046,
-     "CHF": 0.933058,
-     "EUR": 0.806942,
-     "GBP": 0.719154,
-     [170 world currencies]
-  }
-}   
+//{
+//  "base": USD,
+//  "date": "2018-02-13",
+//  "rates": {
+ //    "CAD": 1.260046,
+  //   "CHF": 0.933058,
+  //   "EUR": 0.806942,
+//     "GBP": 0.719154,
+//     [170 world currencies]
+//  }
+//}   
 
 // Step 2: On success:
   // a) Log the response to the console. Open the console and expand the
@@ -27,3 +27,10 @@ GET https://data.fixer.io/api/latest
   //    "YYYY-MM-DD" is replaced with the date given in the response.
   // c) Update the content of the li to say "USD : X", where X is the EUR-USD
   //    exchange rate given in the response.
+
+
+$.get('http://api.fixer.io/latest', function(data)  {
+console.log(data);
+$('h2').html(data.date);
+$('li').html('USD : ' + data.rates.USD);
+});
