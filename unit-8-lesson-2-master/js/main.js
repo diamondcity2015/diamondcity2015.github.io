@@ -16,7 +16,12 @@
 //     "GBP": 0.719154,
 //     [170 world currencies]
 //  }
-//}   
+//}
+
+$.ajax({
+		type: "GET",
+		url: "http://api.fixer.io/latest",
+	});   
 
 // Step 2: On success:
   // a) Log the response to the console. Open the console and expand the
@@ -28,9 +33,18 @@
   // c) Update the content of the li to say "USD : X", where X is the EUR-USD
   //    exchange rate given in the response.
 
+$.ajax({
+    type: "GET",
+    url: "https://api.fixer.io/latest?base=USD",
+    success: function (response) {
+      console.log(response);
+      $('h2').html("As of " + response.date);
+      $('li').html("USD : " + response.rates.EUR);
+    }
+  });
 
-$.get('http://api.fixer.io/latest', function(data)  {
-console.log(data);
-$('h2').html(data.date);
-$('li').html('USD : ' + data.rates.USD);
-});
+//$.get('http://api.fixer.io/latest', function(data)  {
+//console.log(data);
+//$('h2').html(data.date);
+//$('li').html('USD : ' + data.rates.USD);
+//});
