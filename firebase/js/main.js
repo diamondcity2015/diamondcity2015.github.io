@@ -27,6 +27,8 @@
 
   // use the set method to save data to the comments
 
+// Connect to Database
+var database = firebase.database();
 
 
 
