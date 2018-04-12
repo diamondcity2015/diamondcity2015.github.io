@@ -25,10 +25,10 @@ $('form').on ('submit', function(event)   {
 
 }
 
-      var source = $('#groceryItem').html(html);
+      var source = $('#groceryItem').html();
 
       var template = Handlebars.compile(source);
 
-      var newListItemHTML = $('userInput').template();
+      var newListItemHTML = template(userInput);
 
       $('.groceries').append('newListItemHTML');
