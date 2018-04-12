@@ -12,3 +12,23 @@
   // d) Use Handlebars.compile() to compile the source template and store in a variable called template.
   // e) Use template() to add the userInput to the template and store in a variable called newListItemHTML
   // f) Append newListItemHTML to the .groceries list
+
+$('form').on ('submit', function(event)   {
+  event.preventDefualt();
+});
+
+  var userInput =  {
+
+  item: $('#item').val(),
+
+  cost: $('#cost').val()
+
+}
+
+      var source = $('#groceryItem').html(html);
+
+      var template = Handlebars.compile(source);
+
+      var newListItemHTML = $('userInput').template();
+
+      $('.groceries').append('newListItemHTML');
