@@ -19,9 +19,9 @@ $('form').on ('submit', function(event)   {
 
   var userInput =  {
 
-  'item' : $('#item').val(),
+  item : $('#item').val(),
 
-  'cost' : $('#cost').val()
+  cost : $('#cost').val()
 
 };
 
