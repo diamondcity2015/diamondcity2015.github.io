@@ -15,7 +15,7 @@
 
 $('form').on ('submit', function(event)   {
   event.preventDefualt();
-});
+
 
   var userInput =  {
 
@@ -32,3 +32,14 @@ $('form').on ('submit', function(event)   {
       var newListItemHTML = template(userInput);
 
       $('.groceries').append('newListItemHTML');
+
+    });
+
+      //$('form').on('submit', function (e) {
+     // e.preventDefault();
+      //var source = $("#groceryItem").html();
+      //var template = Handlebars.compile(source);
+     // var context = {item: $('#item').val(), cost: $('#cost').val()};
+     //var newListItemHTML = template(context);
+     // $('.groceries').append(newListItemHTML);
+    //});
