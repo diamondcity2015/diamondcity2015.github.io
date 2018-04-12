@@ -19,12 +19,12 @@
 
 // 1. Initialize Firebase
 var config = {
-  apiKey: "AIzaSyB06LoLe1_AeNGeo1NghnSWJ45NPanB83E",
-  authDomain: "js-circuits-14769.firebaseapp.com",
-  databaseURL: "https://js-circuits-14769.firebaseio.com",
-  projectId: "js-circuits-14769",
-  storageBucket: "js-circuits-14769.appspot.com",
-  messagingSenderId: "342192085951"
+  apiKey: "AIzaSyDbiyXsiAS0PQPTkfTADDmOpe-_jh62P3o",
+  authDomain: "js-circuits-ad6cc.firebaseapp.com",
+  databaseURL: "https://js-circuits-ad6cc.firebaseio.com",
+  projectId: "js-circuits-ad6cc",
+  storageBucket: "js-circuits-ad6cc.appspot.com",
+  messagingSenderId: "306628274962"
 };
 firebase.initializeApp(config);
 
