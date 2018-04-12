@@ -19,9 +19,9 @@ $('form').on ('submit', function(event)   {
 
   var userInput =  {
 
-  item: $('#item').val(),
+  'item' : $('#item').val(),
 
-  cost: $('#cost').val()
+  'cost' : $('#cost').val()
 
 };
 
@@ -43,3 +43,21 @@ $('form').on ('submit', function(event)   {
      //var newListItemHTML = template(context);
      // $('.groceries').append(newListItemHTML);
     //});
+
+
+//2nd example
+
+
+//$('form').on('submit', function(e) {
+ // e.preventDefault();
+
+ // var userInput = {
+  //  'item' : $('#item').val(),
+  //  'cost' : $('#cost').val()
+ // };
+ // var source = $('#groceryItem').html();
+ // var template = Handlebars.compile(source);
+ // var newListItemHTML = template(userInput);
+
+  //$('.groceries').append(newListItemHTML);
+//});
