@@ -1,5 +1,17 @@
 // 1. Initialize Firebase
-
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDbiyXsiAS0PQPTkfTADDmOpe-_jh62P3o",
+    authDomain: "js-circuits-ad6cc.firebaseapp.com",
+    databaseURL: "https://js-circuits-ad6cc.firebaseio.com",
+    projectId: "js-circuits-ad6cc",
+    storageBucket: "js-circuits-ad6cc.appspot.com",
+    messagingSenderId: "306628274962"
+  };
+  firebase.initializeApp(config);
+</script>
 
 
 // 2. connect to your Firebase application using your reference URL
