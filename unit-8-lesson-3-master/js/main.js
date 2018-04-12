@@ -23,7 +23,7 @@ $('form').on ('submit', function(event)   {
 
   cost: $('#cost').val()
 
-}
+};
 
       var source = $('#groceryItem').html();
 
