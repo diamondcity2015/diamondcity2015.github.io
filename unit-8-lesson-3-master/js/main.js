@@ -13,8 +13,8 @@
   // e) Use template() to add the userInput to the template and store in a variable called newListItemHTML
   // f) Append newListItemHTML to the .groceries list
 
-$('form').on ('submit', function(event)   {
-  event.preventDefualt();
+$('form').on ('submit', function(e)   {
+  e.preventDefualt();
 
 
   var userInput =  {
@@ -31,7 +31,7 @@ $('form').on ('submit', function(event)   {
 
       var newListItemHTML = template(userInput);
 
-      $('.groceries').append('newListItemHTML');
+      $('.groceries').append(newListItemHTML);
 
     });
 
