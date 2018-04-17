@@ -3,22 +3,50 @@ body   {
 	text-align: center;
 }
 
+form   {
+	border: 1px black solid;
+	padding: 3em;
+}
+
 h1   {
 	margin: auto;
+	padding: 1em;
+}
 	text-align: center;
 }
 
+main {
+	padding: 2em;
+}
+
+table  {
+	border: 1px black solid;
+	padding: 3em;
+}
 
 
 .formone  {
 	float: left;
+	display: block;
 }
 
 .formtwo  {
 	float: right;
 }
 
+.jerry {
+	float: left;
+}
 
 .reservationform   {
 
+}
+
+.review  {
+	float:right;
+}
+
+.tom  {
+	height: 710px;
+	width: 1366px;
 }
