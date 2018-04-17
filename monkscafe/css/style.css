@@ -1,45 +1,112 @@
+*{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body   {
 	margin: auto;
 	text-align: center;
 }
 
+
+
 form   {
-	border: 1px black solid;
-	padding: 3em;
+	border: 2px black solid;
+	height: 10%;
+	margin: auto;
+	padding: 2em;
+	width: 45%;
 }
 
 h1   {
 	margin: auto;
-	padding: 1em;
-}
+	padding: 2em;
 	text-align: center;
 }
+
+h2  {
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+
 
 main {
 	padding: 2em;
 }
 
-table  {
-	border: 1px black solid;
-	padding: 3em;
+map {
+
+}
+
+p  {
+	text-align: center;
+}
+
+table {
+	width: 45%;
+
 }
 
 
-.formone  {
+table, th,td {
+	border: 2px black solid;
+	border-collapse: collapse
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+	
+}
+
+th,td   {
+	width: 20%;
+}
+
+#formone  {
 	float: left;
-	display: block;
+	display: inline;
+	height: 15%;
 }
 
-.formtwo  {
+#formtwo  {
+	display: block;
 	float: right;
 }
+
+
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: table;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.container {
+	display: block;
+	
+	overflow: hidden;
+	width: 100%;
+}
+
+
+
 
 .jerry {
 	float: left;
 }
 
-.reservationform   {
+.outline {
+	border: none;
+	margin: auto;
+	text-align: center;
+	
+}
 
+.reservationform   {
+	border: 2px black solid;
 }
 
 .review  {
@@ -47,6 +114,7 @@ table  {
 }
 
 .tom  {
-	height: 710px;
-	width: 1366px;
+	border: 2px black solid;
+	height: 25%;
+	width: 100%;
 }

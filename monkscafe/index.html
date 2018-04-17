@@ -15,12 +15,14 @@
     </main> 
 
     <h1>Reservations</h1>
-
-    <form class="formone" action="">
-    	<h2 class="reservationform" class="formone">Make a Reservation</h2> 
+    <div class="container">
+    <form id="formone" class="clearfix" action="">
+    	<h2>Make a Reservation</h2> 
 
 		<input id="item" type="text" placeholder="Name">
+		<br></br>
 		<input id="cost" type="text" placeholder="Day">
+		<br></br>
 		<button type="submit">Confirm</button>
 
 	</form>
@@ -32,28 +34,51 @@
 		<input id="cost" type="text" placeholder="Day">
 		
 	</form>  -->
+	<div class="reservationform"> 
+	<h2 class="reservationform">Existing Reservations</h2>
+	<table id="formtwo" class="clearfix" action="">
+		<!--<h2 class="reservationform">Existing Reservations</h2> -->
+			<!--<p>Existing Reservations</p> -->
+			  <tr>
+			    <!--<th class="outline">Existing Reservations</th>-->
+			    
+			  </tr>
+			  <tr>
+			    <th>Name</th>
+			    <th>Day</th>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			  <tr>
+			    <td></td>
+			    <td></td>
+			  </tr>
+			  
+			
+	</table>
+</div>
+</div>
 
-	<table class="formtwo">
-<thead>
-<th>Name</th>
-<th>Day</th>
-</thead>
-<tbody> [ form data will publish here ] </tbody>
-</table>
 	
     <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
-    <br></br>
+    
+    
+    
+    
+
+
+    
+
 
 	
 
 	<main class="clearfix" id="cafe">
 		<h1>Come Dine with Us</h1>
 
-        <img src="images/jerry.jpeg"  alt="jerry">
+        <div id="map">
+        </div>
     </main> 
 
     <h1>Customer Reviews</h1>
@@ -64,8 +89,9 @@
     	- Jerry Seinfeld, on The BIG Salad</p> 
 
 
-
-
-
+<script src="js/main.js"></script>
+<!--google map-->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCJb9NEoY41exwUj_gL5VONAGgO9N931nQ&callback=initMap"
+  type="text/javascript"></script>
 </body>
 </html>
