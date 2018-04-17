@@ -3,6 +3,12 @@ body   {
 	text-align: center;
 }
 
+h1   {
+	margin: auto;
+	text-align: center;
+}
+
+
 
 .formone  {
 	float: left;
