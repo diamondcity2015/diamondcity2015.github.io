@@ -85,7 +85,8 @@ th,td   {
 }
 
 .background  {
-
+	 background-color: lightblue;
+	border: 2px black solid;
 }
 
 .blue {
@@ -113,7 +114,10 @@ th,td   {
 
 
 .jerry {
+	border: 1px black solid;
+
 	float: left;
+	padding: 2em;
 }
 
 .outline {
@@ -134,6 +138,7 @@ th,td   {
 
 .review  {
 	float:right;
+	padding: 10em;
 }
 
 .shift  {
