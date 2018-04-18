@@ -100,6 +100,10 @@ th,td   {
 	float: right;
 }
 
+#map  {
+	width: 60%;
+}
+
 .background  {
 	 background-color: lightblue;
 	border: 2px black solid;
