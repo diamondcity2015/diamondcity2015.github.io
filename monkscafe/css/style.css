@@ -16,6 +16,8 @@ aside  {
 
 }
 
+
+
 body   {
 	margin: auto;
 	text-align: center;
@@ -29,6 +31,7 @@ footer {
 	border: 2px black solid;
 
 }
+
 
 form   {
 	border: 2px black solid;
@@ -61,6 +64,7 @@ main {
 }
 
 map {
+	
 
 }
 
@@ -89,6 +93,11 @@ th,td   {
 	width: 20%;
 }
 
+#background  {
+	 background-color: lightblue;
+	border: 2px black solid;
+}
+
 #formone  {
 	float: left;
 	display: inline;
@@ -100,14 +109,24 @@ th,td   {
 	float: right;
 }
 
-#map  {
-	width: 60%;
+#links a {
+	border: none;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+  
 }
 
-.background  {
-	 background-color: lightblue;
-	border: 2px black solid;
+#map  {
+	height: 300px;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+  
+	width: 70%;
 }
+
+
 
 .blue {
 	background-color: #36C9FF;
@@ -139,6 +158,8 @@ th,td   {
 	float: left;
 	padding: 2em;
 }
+
+
 
 .outline {
 	border: none;
