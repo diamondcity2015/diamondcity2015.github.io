@@ -4,14 +4,30 @@
 	padding: 0;
 }
 
+aside  {
+	 background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
+	border: 2px black solid;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+
+}
+
 body   {
 	margin: auto;
 	text-align: center;
 }
 
 footer {
-	background-color: lightblue;
-	border: 2px black solid;	
+	background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+	border: 2px black solid;
+
 }
 
 form   {
