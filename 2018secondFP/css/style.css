@@ -134,6 +134,7 @@ th, td {
 }
 
 .bg  {
+    border: 2px black solid;
     float: left;
     width: 45%;
 }
@@ -168,8 +169,7 @@ th, td {
 }
 
 .jerry {
-    border: 1px black solid;
-
+    
     float: left;
     padding: 2em;
 }
@@ -210,6 +210,7 @@ th, td {
 }
 
 .yelp  {
+    border: 2px black solid;
     float: right;
     padding: 1.5em;
     width: 45%;
