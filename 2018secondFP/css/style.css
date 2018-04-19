@@ -30,6 +30,7 @@ footer {
     background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
     background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
     border: 2px black solid;
+    width: 100%;
 
 }
 
@@ -99,6 +100,7 @@ th, td {
 #background  {
      background-color: lightblue;
     border: 2px black solid;
+    
 }
 
 #formone  {
@@ -129,6 +131,11 @@ th, td {
     margin-bottom: 1%;
     width: 99%;
     
+}
+
+.bg  {
+    float: left;
+    width: 45%;
 }
 
 .blue {
@@ -196,5 +203,11 @@ th, td {
     border: 2px black solid;
     height: 25%;
     width: 100%;
+}
+
+.yelp  {
+    float: right;
+    padding: 1.5em;
+    width: 45%;
 }
 
