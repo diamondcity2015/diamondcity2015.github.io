@@ -1,0 +1,98 @@
+h1, h2, h3, h4, h5, h6, p, label {
+  font-family: "Helvetica";
+}
+
+#comeDineWithUsDiv {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+#reservationsDiv {
+  margin-bottom: 260px;
+}
+
+#reviewsImg {
+  max-width: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.dineWithUsH2 {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.banner-img {
+  width: 800px;
+  height: 300px;
+
+}
+
+.makeReservation, .existingReservations {
+  width: 350px;
+  height: 200px;
+  background-color: #eaeff7;
+  padding: 20px;
+}
+
+.makeReservation {
+  float: left;
+}
+.existingReservations {
+  float: right;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.fieldLabel {
+  float: left;
+}
+
+.reservationField {
+  font-size: 20px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input {
+    display: inline;
+}
+
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input {
+    width: 60%;
+    margin: 0 0 0 2%;
+}
+
+button {
+    width: 80%;
+    font-size: 20px;
+    margin: 10% 10% 10% 10%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  width: 80%;
+  height: 20px;
+  margin: auto;
+  border: 1px solid black;
+  font-family: "Helvetica";
+}
+
+th, td {
+  width: 50%;
+}

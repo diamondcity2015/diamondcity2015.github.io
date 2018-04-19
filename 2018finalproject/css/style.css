@@ -1,0 +1,197 @@
+*{
+	box-sizing:border-box;
+
+}
+
+aside  {
+	 background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
+	border: 2px black solid;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+
+}
+
+
+
+body   {
+	margin: auto;
+	text-align: center;
+}
+
+footer {
+	background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+	border: 2px black solid;
+
+}
+
+
+form   {
+	border: 2px black solid;
+	height: 10%;
+	margin: auto;
+	padding: 2em;
+	width: 45%;
+}
+
+h1   {
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+
+h2  {
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+
+header   {
+	background-color: yellow;
+	border: 2px black solid;
+}
+
+input  {
+	
+}
+
+label {
+    text-align: right;
+   }
+
+main {
+	padding: 2em;
+}
+
+map {
+	
+
+}
+
+p  {
+	margin: auto;
+	text-align: center;
+}
+
+table {
+	float: right;
+	width: 45%;
+
+}
+
+
+table, th,td {
+	border: 2px black solid;
+	border-collapse: collapse
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+	
+}
+
+th,td   {
+	width: 20%;
+}
+
+#background  {
+	 background-color: lightblue;
+	border: 2px black solid;
+}
+
+#formone  {
+	float: left;
+	display: inline;
+	height: 15%;
+}
+
+#formtwo  {
+	display: block;
+	float: right;
+}
+
+#links a {
+	border: none;
+	margin: auto;
+	padding: 1em;
+	text-align: center;
+  
+}
+
+#map  {
+	height: 350px;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+  
+	width: 70%;
+}
+
+
+
+.blue {
+	background-color: #36C9FF;
+	border: 2px black solid;
+}
+
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: table;
+	font-size: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.container {
+	display: block;
+	
+	overflow: hidden;
+	width: 100%;
+}
+
+
+
+
+.jerry {
+	border: 1px black solid;
+
+	float: left;
+	padding: 2em;
+}
+
+
+
+.outline {
+	border: none;
+	margin: auto;
+	text-align: center;
+	
+}
+
+.red {
+	background-color: #E83509;
+	border: 2px black solid;
+}
+
+
+
+.review  {
+	float:right;
+	padding: 10em;
+}
+
+.shift  {
+	
+}
+
+.tom  {
+	border: 2px black solid;
+	height: 25%;
+	width: 100%;
+}

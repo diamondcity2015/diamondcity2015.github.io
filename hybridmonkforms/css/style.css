@@ -1,0 +1,112 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body   {
+    margin: auto;
+    text-align: center;
+}
+
+button  {
+
+}
+
+form   {
+    border: 1px black solid;
+    
+    margin: auto;
+    padding: 2em;
+    width: 45%;
+}
+
+h1  {
+    
+}
+
+h1, h2, h3 {
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+  }
+
+
+label {
+    display: inline;
+    text-align: right;
+}
+
+p  {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    width: 80%;
+  }
+
+th, td {
+    width: 50%;
+}
+
+#formone  {
+    float: left;
+    display: inline;
+    height: 15%;
+    text-align: center;
+}
+
+#reservations {
+    margin-bottom: 1%;
+    width: 100%;
+    
+}
+
+.blue {
+    background-color: #36C9FF;
+    border: 2px black solid;
+}
+
+.clearfix:after {
+    clear: both;
+    content:' ';
+    display: table;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.container {
+    
+    display: inline;
+    
+    overflow: hidden;
+    text-align: center;
+    width: 45%;
+}
+
+.existing {
+    border: 1px black solid;
+    float: right;
+    width: 45%;
+}
+
+.red {
+    background-color: #E83509;
+    border: 2px black solid;
+}
+
+
+

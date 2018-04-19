@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5, h6, p, label {
+    font-family: "Helvetica";
+    text-align: center;
+
+}
+
+
+button {
+    font-size: 20px;
+    margin: 10% 10% 10% 10%;
+    width: 80%;
+}
+  
+form {
+    margin: 0 auto;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+}
+
+label, input {
+    display: inline;
+}
+
+label + input {
+    margin: 0 0 0 2%;
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    width: 80%;
+  }
+
+th, td {
+    width: 50%;
+}
+
+#reservations {
+    margin-bottom: 1%;
+}
+
+.clearfix:after {
+    clear: both;
+    content:' ';
+    display: table;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.existing {
+    border: 1px black solid;
+    float: right;
+}
+
+.labelfield {
+    float: left;
+}
+
+.make {
+    border: 1px black solid;
+    float: left;
+}
+
+.make, .existing {
+    background-color: #eaeff7;
+    height: 200px;
+    padding: .5em;
+    width: 35%;
+}
+
+.reservationField {
+    font-size: 20px;
+}
