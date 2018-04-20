@@ -39,11 +39,11 @@ else if (days === 0  && hours > 6) {
 
 //if day is monday
 
-else if (days === 1 && hours < 1:31)  {
+else if (days === 1 && hours < 131)  {
 	console.log('Open');
 }
 
-else if (days === 1 && hours > 1:30 && hours < 6)  {
+else if (days === 1 && hours > 130 && hours < 6)  {
 	console.log('Closed');
 }
 
@@ -53,11 +53,11 @@ else if (days === 1 && hours > 6)  {
 
 //if day is tuesday
 
-else if (days === 2 && hours < 1:31)  {
+else if (days === 2 && hours < 131)  {
 	console.log('Open');
 }
 
-else if (days === 2 && hours > 1:30 && hours < 6)  {
+else if (days === 2 && hours > 130 && hours < 6)  {
 	console.log('Closed');
 }
 
@@ -67,11 +67,11 @@ else if (days === 2 && hours > 6)  {
 
 //if day is wednesday
 
-else if (days === 3 && hours < 1:31)  {
+else if (days === 3 && hours < 131)  {
 	console.log('Open');
 }
 
-else if (days ===3 && hours > 1:30 && hours < 6)  {
+else if (days ===3 && hours > 130 && hours < 6)  {
 	console.log('Closed');
 }
 
@@ -81,11 +81,11 @@ else if (days === 3 && hours > 6)  {
 
 //if day is thursday
 
-else if (days === 4 && hours < 1:31)  {
+else if (days === 4 && hours < 131)  {
 	console.log('Open');
 }
 
-else if (days ===4 && hours > 1:30 && hours < )  {
+else if (days ===4 && hours > 130 && hours < )  {
 	console.log('Closed');
 }
 
