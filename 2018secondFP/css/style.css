@@ -44,7 +44,7 @@ form   {
 }
 
 h1  {
-   font: 1.5em 'Pacifico', sans-serif; 
+   font: 1.8em 'Pacifico', sans-serif; 
 }
 
 h1, h2, h3 {
@@ -186,6 +186,10 @@ th, td {
     margin: auto;
     text-align: center;
     
+}
+
+.pacifico {
+    font:  'Pacifico', sans-serif; 
 }
 
 .review  {
