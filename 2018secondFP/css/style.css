@@ -129,7 +129,9 @@ th, td {
 }
 
 #hours   {
-
+    background-color: yellow;
+    border: 2px black solid;
+    width: 100%;
 }
 
 #links a {
