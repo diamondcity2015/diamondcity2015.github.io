@@ -98,7 +98,7 @@ else if (days === 6)   {
 	console.log('Open');
 	}
 
-document.write('<h3>' + greeting + '</h3>');
+//document.write('<h3>' + greeting + '</h3>');
 
 }
 
