@@ -172,6 +172,7 @@ th, td {
     
     float: left;
     padding: 2em;
+    
 }
 
 .outline {
@@ -221,7 +222,21 @@ th, td {
     .bg  {
     
     float: left;
+    width: 44%;
+}
+
+.jerry {
+    
+    float: left;
+    padding: 1em;
     width: 35%;
+}
+
+.yelp  {
+    border: 2px black solid;
+    float: right;
+    padding: 1.5em;
+    width: 50%;
 }
 
 }
