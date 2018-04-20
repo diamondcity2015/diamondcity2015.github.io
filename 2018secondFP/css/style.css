@@ -135,7 +135,7 @@ th, td {
 }
 
 .bg  {
-    border: 2px black solid;
+    border: none;
     float: left;
     width: 44%;
 }
@@ -229,7 +229,7 @@ th, td {
     border: 2px black solid;
     float: right;
     padding: 1.5em;
-    width: 44%;
+    width: 50%;
 }
 
 
