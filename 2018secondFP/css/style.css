@@ -31,7 +31,6 @@ footer {
     background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
     border: 2px black solid;
     width: 100%;
-
 }
 
 form   {
@@ -219,7 +218,16 @@ th, td {
 
 @media only screen and (max-width: 700px)  {
 
-    .bg  {
+footer {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    
+    width: 100%;
+}
+
+.bg  {
     
     float: left;
     width: 44%;
