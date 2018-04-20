@@ -182,11 +182,6 @@ th, td {
     
 }
 
-.red {
-    background-color: #E83509;
-    border: 2px black solid;
-}
-
 .review  {
     float:right;
     padding: 10em;
@@ -208,6 +203,11 @@ th, td {
     border: 2px black solid;
     height: 25%;
     width: 100%;
+}
+
+.yellow{
+    background-color: yellow;
+    border: 2px black solid;
 }
 
 .yelp  {
