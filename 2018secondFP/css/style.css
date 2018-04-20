@@ -117,11 +117,19 @@ th, td {
     text-align: center;
 }
 
+#feed  {
+    width: 99%;
+}
+
 #formone  {
     float: left;
     display: inline;
     height: 15%;
     text-align: center;
+}
+
+#hours   {
+
 }
 
 #links a {
@@ -212,7 +220,8 @@ th, td {
 
 .red   {
     background-color: #E83F30;
-    border: 2px black solid;   
+    border: 2px black solid;  
+    padding: 2em; 
 }
 
 .reviews  {
