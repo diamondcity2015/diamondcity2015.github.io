@@ -1,0 +1,15 @@
+*{
+    box-sizing:border-box;
+
+}
+
+body   {
+    margin: auto;
+    text-align: center;
+}
+
+.clock  {
+	background-color: orange;
+	border: 2px black solid;
+	height: 150px;
+}
