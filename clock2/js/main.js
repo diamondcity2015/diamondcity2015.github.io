@@ -16,7 +16,7 @@ var days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 's
 var today = new Date();
 var hours = today.getHours();
 
-var greeting
+var greeting = function ()  {
 
 // if day is sunday
 if (days === 0  && hours < 4) {
@@ -100,6 +100,9 @@ else if (days === 6)   {
 
 document.write('<h3>' + greeting + '</h3>');
 
+}
+
+greeting();
 
 
 
