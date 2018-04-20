@@ -14,12 +14,3 @@ if (hourNow > 18) {
 
 document.write('<h3>' + greeting + '</h3>');
 
-
-
-//If day is sunday through wednesday , they are open 6:00 am to 1:30 am
-
-//If day is thursday, they are open 4:00 am to midnight
-
-//If day is friday, they are open 24 hours
-
-//If day is saturday, they are open 24 hours to 4:00 am
