@@ -8,6 +8,30 @@ body   {
     text-align: center;
 }
 
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    width: 80%;
+  }
+
+th, td {
+    width: 50%;
+}
+
+
+#hours   {
+    background-color: yellow;
+    border: 2px black solid;
+    width: 100%;
+}
+
 .clock  {
 	background-color: orange;
 	border: 2px black solid;
