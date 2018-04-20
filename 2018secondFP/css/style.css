@@ -235,18 +235,7 @@ th, td {
 
  @media only screen and (max-width: 800px) {
 
-.bg  {
-    
-    float: left;
-    width: 44%;
-}
 
-.jerry {
-    
-    float: left;
-    padding: .5em;
-    width: 35%;
-}
 
 .yelp  {
     border: 2px black solid;
