@@ -34,7 +34,7 @@ var message
   }
 
   else {
-  	message = 'Weare closed';
+  	message = 'We are closed';
   }
 
 document.write('<h3>' + message + '</h3>');

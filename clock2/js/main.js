@@ -20,7 +20,7 @@ var greeting = function ()  {
 
 // loop through the days
 
-for (var i = 0; i < days.length; i++)
+//for (var i = 0; i < days.length; i++)
 
 
 // if day is sunday
