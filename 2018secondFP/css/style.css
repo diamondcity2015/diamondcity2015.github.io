@@ -160,6 +160,11 @@ th, td {
     width: 45%;
 }
 
+.darkblue  {
+    background-color: #0814CC;
+    border: 2px black solid;
+}
+
 .existing {
     background-color: #DAD5E8;
     border: 2px black solid;
