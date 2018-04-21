@@ -151,6 +151,22 @@ th, td {
     width: 70%;
 }
 
+#open-display.open > .timerange.inactive,
+#open-display.open .days {
+     display: none;
+}
+#open-display.open > .openclosed::before {
+    content: 'Open';
+}
+#open-display.closed > .openclosed::before {
+    content: 'Closed';
+}
+
+#open-display   {
+    text-align: center;
+}
+
+
 #reservations {
     margin-bottom: 1%;
     width: 99%;

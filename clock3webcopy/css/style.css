@@ -1,0 +1,10 @@
+#open-display.open > .timerange.inactive,
+#open-display.open .days {
+     display: none;
+}
+#open-display.open > .openclosed::before {
+    content: 'Open';
+}
+#open-display.closed > .openclosed::before {
+    content: 'Closed';
+}
