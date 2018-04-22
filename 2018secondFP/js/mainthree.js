@@ -1,6 +1,8 @@
 function isOpen(timeRangeEl, date) {
     var day = '' + date.getDay();
-    var hhmm = ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2);
+    //var hhmm = ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2);
+    var hhmm = ('0' + date.getHours()).slice(+2) + ':' + ('0' + date.getMinutes()).slice(+2);
+
 
     var days = timeRangeEl.getAttribute('data-days');
     var openTime = timeRangeEl.getAttribute('data-open');

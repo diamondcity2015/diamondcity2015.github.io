@@ -49,7 +49,7 @@ h1  {
 
 h1, h2, h3 {
     margin: auto;
-    padding: 2em;
+    padding: 1em;
     text-align: center;
 }
 
@@ -113,7 +113,7 @@ th, td {
     height: 520px;
     margin-left: auto;
     margin-right: auto;
-    padding: 3em;
+    padding: 2em;
     text-align: center;
 }
 
@@ -171,7 +171,7 @@ th, td {
 
 
 #reservations {
-    margin-bottom: 1%;
+    
     width: 99%;
     
 }
