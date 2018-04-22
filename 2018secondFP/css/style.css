@@ -69,7 +69,7 @@ label {
 }
 
 main {
-    padding: 2em;
+    
 }
 
 map  {
@@ -237,7 +237,7 @@ th, td {
 .red   {
     background-color: #E83F30;
     border: 2px black solid;  
-    padding: 1em; 
+    
 }
 
 .review  {
