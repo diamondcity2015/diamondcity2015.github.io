@@ -234,15 +234,15 @@ th, td {
     font:  'Pacifico', sans-serif; 
 }
 
-.review  {
-    float:right;
-    padding: 10em;
-}
-
 .red   {
     background-color: #E83F30;
     border: 2px black solid;  
-    padding: 2em; 
+    padding: 1em; 
+}
+
+.review  {
+    float:right;
+    padding: 1em;
 }
 
 .reviews  {
