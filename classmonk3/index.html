@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Monk’s Cafe</title>
+	<link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script id="reservation-template" type="text/x-handlebars-template">
+		<tr>
+			<td>{{name}}</td>
+			<td>{{date}}</td>
+		</tr>
+	</script>
+</head>
+<body>
+	<div class="grid-container">
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell">
+				<h1 class="text-center text_white">Monk’s Cafe</h1>
+	      		<h4 class="text-center text_white">“The Coffee Shop”</h4>
+			</div>
+		</div>
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell">
+				<img class="restaurant_bck_img" src="images/toms-restaurant.jpeg"/>
+			</div>
+		</div>
+		<div class="grid-x grid-padding-x">
+			<div class="large-6 medium-6 cell">
+				 <h5 class="text-center text_white">Make A Reservation</h5>
+	            	<form id="formGR_1">
+	            		<div class="grid-x grid-padding-x">
+              				<div class="large-12 cell">
+		    					<input id="name" type="text" placeholder="Name">
+		    					<input id="date" type="text" placeholder="Date">
+	    						<button id="resSubmit" class="button">Confirm Reservation</button>
+	    					</div>
+	    				</div>
+					</form>
+			</div>
+			<div class="large-6 medium-6 cell">
+				<h5 class="text-center text_white">Existing Reservations</h5>
+					<table class="hover">
+						<thead>
+						<th width="150">Name</th>
+						<th width="150">Date</th>
+						</thead>
+							<tbody class="reservation_list"></tbody>
+						</tbody>
+					</table>
+			</div>
+		</div>
+		<div class="grid-x grid-padding-x">
+			<div class="large-12 cell">
+				<div id="map">
+	   			</div>
+			    <script>
+			      function initMap(){
+			        var map = new google.maps.Map(document.getElementById('map'), {
+			          center: {lat: 40.8054491, lng: -73.9654415},
+			          zoom: 8
+			        });
+			        var marker = new google.maps.Marker({
+					    position: {lat: 40.7128, lng: -74.0059},
+					    map: map,
+					    title: 'Monks Café'
+					});
+			    };	
+			    </script>
+			    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCioTctY8HCMFujKKcZL1o7v47dS4x-OkY&callback=initMap"
+			    async defer>
+			    </script>
+			</div>
+		</div>
+		<br>
+		<div class="grid-x grid-padding-x">
+			<div class="large-6 medium-6 cell">
+				<img class="restaurant_bck_img" src="images/jerry.jpeg"/>
+			<div class="quote_block">
+				<div class="quote_contrast">
+	        		<p class="text_white">Customer Reviews:</p>
+	          		<blockquote class="no_border_L text_white">
+				  	<p class="text_white">Big lettuce, big carrots, tomatoes like volleyballs.</p>
+				  	<footer class="text_white italic_txt">— Jerry Seinfeld, on The BIG Salad</footer>
+					</blockquote>
+					</div>
+			</div>
+		</div>
+			<div class="large-6 medium-6 cell">
+				<span class="yelp-review" data-review-id="h3hOGrJ1BMcHzMqS2ouV-w" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=AEMdmI1ejujvGw-X_5Z5Xg" rel="nofollow noopener">Varand O.</a>'s <a href="https://www.yelp.com/biz/toms-restaurant-new-york?hrid=h3hOGrJ1BMcHzMqS2ouV-w" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/6nOxwnuN0ZwLX3h3JYSJnA" rel="nofollow noopener">Tom's Restaurant</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
+				<span class="yelp-review" data-review-id="KKWhDNQWBBhV2V3aV6YBfg" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=QDzMM2YcB0LDLJVHDqrz3g" rel="nofollow noopener">David H.</a>'s <a href="https://www.yelp.com/biz/toms-restaurant-new-york?hrid=KKWhDNQWBBhV2V3aV6YBfg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/6nOxwnuN0ZwLX3h3JYSJnA" rel="nofollow noopener">Tom's Restaurant</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
+			</div>
+		</div>
+	</div>	
+</body>
+<footer>
+	<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+	<script src="js/vendor/what-input.js"></script>
+	<script src="js/vendor/foundation.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/main.js"></script>
+</footer>
+</html>
