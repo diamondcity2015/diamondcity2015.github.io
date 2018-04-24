@@ -1,3 +1,9 @@
+.divider   {
+	"border-left: 1px; 
+	color: solid #000;
+}
+
+
 .restaurant-pic {
 	height: 50vh;
 	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');

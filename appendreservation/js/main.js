@@ -2,13 +2,17 @@ var reservationData = {};
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyBOu_d8Uo37Pt0RSa_ZHHVqi0rI-v1BfCA",
-  authDomain: "restaurant-site.firebaseapp.com",
-  databaseURL: "https://restaurant-site.firebaseio.com",
-  storageBucket: "restaurant-site.appspot.com",
-};
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBOu_d8Uo37Pt0RSa_ZHHVqi0rI-v1BfCA",
+    authDomain: "appendreservationexample.firebaseapp.com",
+    databaseURL: "https://appendreservationexample.firebaseio.com",
+    projectId: "appendreservationexample",
+    storageBucket: "appendreservationexample.appspot.com",
+    messagingSenderId: "910318256150"
+  };
+  firebase.initializeApp(config);
 
-firebase.initializeApp(config);
 
 var database = firebase.database();
 
