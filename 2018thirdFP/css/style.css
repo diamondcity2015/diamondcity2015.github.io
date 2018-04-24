@@ -69,7 +69,8 @@ input {
 
 label {
     display: inline;
-    text-align: right;
+    margin: auto;
+    text-align: center;
 }
 
 main {
@@ -95,6 +96,7 @@ table, th, td {
     font-family: "Helvetica";
     height: 20px;
     margin: auto;
+    text-align: center;
     width: 80%;
   }
 
