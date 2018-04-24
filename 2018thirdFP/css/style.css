@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+*{
+    box-sizing:border-box;
+
+}
+
+aside  {
+     background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
+    border: 2px black solid;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+
+}
+
+body   {
+    margin: auto;
+    text-align: center;
+}
+
+button  {
+
+}
+
+footer {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    border: 2px black solid;
+    width: 100%;
+}
+
+form   {
+    background-color: #DAD5E8;
+    border: 2px black solid;
+    margin: auto;
+    padding: 2em;
+    width: 45%;
+}
+
+h1  {
+   font: 1.8em 'Pacifico', sans-serif; 
+}
+
+h1, h2, h3 {
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+header   {
+    background-color: yellow;
+    border: 2px black solid;
+}
+
+img  {
+    
+}
+
+input {
+    text-align: center;
+  }
+
+
+label {
+    display: inline;
+    text-align: right;
+}
+
+main {
+    
+}
+
+map  {
+
+}
+
+
+p  {
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    width: 80%;
+  }
+
+th, td {
+    width: 50%;
+}
+
+#background  {
+     background-color: #E83F30;
+    border: 2px black solid;
+    
+}
+
+#container {
+    /*border: 2px black solid;*/
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+#existing {
+    background-color: #DAD5E8;
+    border: 2px black solid;
+    float: right;
+    width: 45%;
+}
+
+#facebook   {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    border: 2px solid black;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
+    text-align: center;
+}
+
+#feed  {
+    width: 99%;
+}
+
+#formone  {
+    float: left;
+    display: inline;
+    height: 15%;
+    text-align: center;
+}
+
+#hours   {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    border: 2px black solid;
+    width: 100%;
+}
+
+#links a {
+    border: none;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  
+}
+
+#map  {
+    height: 350px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+  
+    width: 70%;
+}
+
+#open-display.open > .timerange.inactive,
+#open-display.open .days {
+     display: none;
+}
+#open-display.open > .openclosed::before {
+    content: 'Open';
+}
+#open-display.closed > .openclosed::before {
+    content: 'Closed';
+}
+
+#open-display   {
+    text-align: center;
+}
+
+
+#reservations {
+    border: 2px black solid;
+
+    width: 99%;
+    
+}
+
+.bg  {
+    
+    float: left;
+    width: 44%;
+}
+
+.blue {
+    background-color: #36C9FF;
+    border: 2px black solid;
+}
+
+.clearfix:after {
+    clear: both;
+    content:' ';
+    display: table;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+.darkblue  {
+    background-color: #0814CC;
+    border: 2px black solid;
+}
+
+
+
+.jerry {
+    
+    float: left;
+    padding: 2em;
+    
+}
+
+.outline {
+    border: none;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.pacifico {
+    font:  'Pacifico', sans-serif; 
+}
+
+.red   {
+    background-color: #E83F30;
+    border: 2px black solid;  
+    
+}
+
+.review  {
+    float:right;
+    padding: 1em;
+}
+
+.reviews  {
+    
+}
+
+.shift  {
+    
+}
+
+.spacing {
+    padding: .5em;
+}
+
+.tom  {
+    border: 2px black solid;
+    height: 25%;
+    width: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 2px black solid;
+}
+
+.yelp  {
+    border: 2px black solid;
+    float: right;
+    padding: 1.2em;
+    width: 45%;
+}
+
+
+ /*@media only screen and (max-width: 800px) {
+
+.bg   {
+    border: none;
+}
+
+}   *?
