@@ -108,6 +108,21 @@ th, td {
     
 }
 
+#container {
+    /*border: 2px black solid;*/
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+#existing {
+    background-color: #DAD5E8;
+    border: 2px black solid;
+    float: right;
+    width: 45%;
+}
+
 #facebook   {
     background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
     background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
@@ -175,7 +190,8 @@ th, td {
 
 
 #reservations {
-    
+    border: 2px black solid;
+
     width: 99%;
     
 }
@@ -200,25 +216,14 @@ th, td {
     visibility: hidden;
 }
 
-.container {
-    
-    display: inline;
-    overflow: hidden;
-    text-align: center;
-    width: 45%;
-}
+
 
 .darkblue  {
     background-color: #0814CC;
     border: 2px black solid;
 }
 
-.existing {
-    background-color: #DAD5E8;
-    border: 2px black solid;
-    float: right;
-    width: 45%;
-}
+
 
 .jerry {
     

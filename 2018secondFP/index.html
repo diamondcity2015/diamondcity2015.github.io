@@ -4,6 +4,7 @@
 
 
 	<link rel="stylesheet"	type="text/css"	href="css/style.css">
+	<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<title>Final Cafe Project</title>
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
@@ -79,8 +80,8 @@
 	<div class="clearfix" id="reservations">
 
 	
-    <div class="container">
-    <form id="formone" action="">
+    <div id="container" class="clearfix">
+    <form id="formone" class="clearfix" action="">
     	<h3>Make a Reservation</h3> 
     	<br></br>
     
@@ -90,15 +91,15 @@
 		<label><strong>Day   :</strong>  </label><input id="cost" type="text" placeholder="Day">
 		<br></br>
 		<br></br>
-		<button type="submit"><strong>Confirm</strong></button>
+		<button type="submit" class="btn btn-primary"><strong>Confirm</strong></button>
 		<br></br>
-		<button type="submit"><strong>Cancel</strong></button>
+		<button type="submit" class="btn btn-primary"><strong>Cancel</strong></button>
 		<br></br>
 	</form>
 
-</div>
+<!--</div>-->
 
-	<div class="existing">
+	<div id="existing" class="clearfix">
 		<h3>Existing Reservations</h3>
 		
 		<table>
@@ -207,6 +208,8 @@
 
   <!--firebase link-->
   	<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+  	<!--bootstrap-->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<!--jquery cdn link-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
