@@ -1,7 +1,6 @@
 var reservationData = {};
 
-// Initialize Firebase
-var config = {
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyBOu_d8Uo37Pt0RSa_ZHHVqi0rI-v1BfCA",
@@ -11,6 +10,7 @@ var config = {
     storageBucket: "appendreservationexample.appspot.com",
     messagingSenderId: "910318256150"
   };
+  
   firebase.initializeApp(config);
 
 
