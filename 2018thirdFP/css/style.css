@@ -175,6 +175,10 @@ th, td {
     width: 70%;
 }
 
+#menu {
+    float: left;
+}
+
 #open-display.open > .timerange.inactive,
 #open-display.open .days {
      display: none;
