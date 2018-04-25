@@ -98,6 +98,7 @@ section   {
 
 table {
     border-collapse: collapse;
+    text-align: center;
 }
 
 table, th, td {
@@ -105,11 +106,16 @@ table, th, td {
     font-family: "Helvetica";
     height: 20px;
     margin: auto;
+    text-align: center;
     width: 80%;
   }
 
 th, td {
     width: 50%;
+}
+
+thead  {
+  text-align: center;
 }
 
 #background  {
@@ -151,6 +157,7 @@ th, td {
     background-color: #DAD5E8;
     border: 2px black solid;
     float: right;
+    text-align: center;
     width: 45%;
 }
 
@@ -184,6 +191,7 @@ th, td {
     background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
     background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
     border: 2px black solid;
+    text-align: center;
     width: 100%;
 }
 
@@ -227,7 +235,7 @@ th, td {
 
 #reservations {
     
-
+   text-align: center;
     width: 99%;
     
 }
