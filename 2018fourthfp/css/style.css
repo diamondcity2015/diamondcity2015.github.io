@@ -6,7 +6,7 @@
 }
 
 aside  {
-    background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
+     background: -webkit-linear-gradient(left, #6EC2C9 , #8bf5ff);
     background: -moz-linear-gradient(left, #6EC2C9 , #8bf5ff);
     background: -o-linear-gradient(left, #6EC2C9 , #8bf5ff);
     background: -ms-linear-gradient(left, #6EC2C9 , #8bf5ff);
@@ -69,8 +69,7 @@ input {
 
 label {
     display: inline;
-    margin: auto;
-    text-align: center;
+    text-align: right;
 }
 
 main {
@@ -87,8 +86,8 @@ p  {
     text-align: center;
 }
 
-section  {
-    
+section   {
+    float: left;
 }
 
 table {
@@ -100,7 +99,6 @@ table, th, td {
     font-family: "Helvetica";
     height: 20px;
     margin: auto;
-    text-align: center;
     width: 80%;
   }
 
@@ -129,9 +127,10 @@ th, td {
   border: 0;
   border-radius: 4px;
   outline: 0;
-  background-color: #f78fa7;
+  background-color: yellow;
   box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
 }
+
 
 #container {
     /*border: 2px black solid;*/
@@ -198,10 +197,6 @@ th, td {
     width: 70%;
 }
 
-#menu {
-    float: left;
-}
-
 #open-display.open > .timerange.inactive,
 #open-display.open .days {
      display: none;
@@ -219,7 +214,7 @@ th, td {
 
 
 #reservations {
-    border: 2px black solid;
+    
 
     width: 99%;
     
@@ -252,30 +247,7 @@ th, td {
     border: 2px black solid;
 }
 
-/* Dropdowns
-   ================================================================ */
-.dropdowns {
-  min-height: 275px;
-}
 
-.dropdowns ul {
-  overflow: hidden;
-  width: 300px;
-  margin: 0 auto;
-  position: relative;
-  top: -3px;
-  padding: 0;
-  border: 2px solid #dfdfdf;
-}
-
-
-.dropdowns li {
-  padding: 10px;
-}
-
-.dropdowns li:hover {
-  background-color: #dfdfdf;
-}
 
 .jerry {
     
@@ -335,6 +307,34 @@ th, td {
     padding: 1.2em;
     width: 45%;
 }
+
+
+/* Dropdowns
+   ================================================================ */
+.dropdowns {
+  min-height: 275px;
+}
+
+.dropdowns ul {
+  overflow: hidden;
+  width: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: -3px;
+  padding: 0;
+  border: 2px solid #dfdfdf;
+}
+
+
+.dropdowns li {
+  padding: 10px;
+}
+
+.dropdowns li:hover {
+  background-color: #dfdfdf;
+}
+
+/* end dropdown    */
 
 
  /*@media only screen and (max-width: 800px) {
