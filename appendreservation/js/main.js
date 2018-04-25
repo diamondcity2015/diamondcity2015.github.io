@@ -6,11 +6,11 @@ var reservationData = {};
     apiKey: "AIzaSyBOu_d8Uo37Pt0RSa_ZHHVqi0rI-v1BfCA",
     authDomain: "appendreservationexample.firebaseapp.com",
     databaseURL: "https://appendreservationexample.firebaseio.com",
-    projectId: "appendreservationexample",
+    
     storageBucket: "appendreservationexample.appspot.com",
-    messagingSenderId: "910318256150"
+    
   };
-  
+
   firebase.initializeApp(config);
 
 
