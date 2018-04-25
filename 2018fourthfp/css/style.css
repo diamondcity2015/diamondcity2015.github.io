@@ -113,6 +113,7 @@ th, td {
 }
 
 #button {
+
   font:  'Pacifico', sans-serif; 
   font-size: 14px;
   font-style: italic;
@@ -195,6 +196,10 @@ th, td {
     text-align: center;
   
     width: 70%;
+}
+
+#menu   {
+    display: none;
 }
 
 #open-display.open > .timerange.inactive,
@@ -312,7 +317,7 @@ th, td {
 /* Dropdowns
    ================================================================ */
 .dropdowns {
-  min-height: 175px;
+    display: none;
 }
 
 .dropdowns ul {
