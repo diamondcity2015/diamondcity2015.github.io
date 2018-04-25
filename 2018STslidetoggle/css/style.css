@@ -1,0 +1,9 @@
+.square    {
+	background-color: #FFDD00;
+	border-radius: 4px;
+	display: none;
+	height: 350px;
+	margin: 0 auto;
+	width: 300px;
+
+}
