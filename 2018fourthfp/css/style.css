@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Garamond);
+
 
 *{
     box-sizing:border-box;
@@ -118,8 +120,8 @@ th, td {
 
 #button {
 
-  font-family:  'Pacifico', sans-serif; 
-  font-size: 10px;
+  font-family:  'Garamond', sans-serif; 
+  font-size: 16px;
   
   position: relative;
   z-index: 1;
@@ -277,7 +279,7 @@ th, td {
     font:  'Pacifico', sans-serif; 
     padding: .1em;
     position: absolute;
-    bottom: 85%;
+    bottom: 88%;
     right: 43%;
    /* width: ;
     height: ;
