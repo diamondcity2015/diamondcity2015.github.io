@@ -270,7 +270,15 @@ th, td {
 
 .pacifico {
     font:  'Pacifico', sans-serif; 
+    padding: 1em;
+    position: absolute;
+    top: 10%;
+    right: 41%;
+   /* width: ;
+    height: ;
+    border: ; */
 }
+
 
 .red   {
     background-color: #E83F30;
@@ -292,8 +300,11 @@ th, td {
 }
 
 .spacing {
-    padding: .5em;
-}
+   padding: .6em;
+   position: relative;
+   right: 8%;
+
+} 
 
 .tom  {
     border: 2px black solid;
