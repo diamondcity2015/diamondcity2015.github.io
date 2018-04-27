@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
       thursday.classList.add('hidden');
       friSat.classList.add('hidden');
       
-      if (currentHour >= 0 && currentHour <= 4 && currentHour >= 6 && currentHour <= 24) {
-        closed.classList.add('hidden');
-      } else {
+      if (currentHour >= 4 && currentHour <= 6) {
         open.classList.add('hidden');
+      } else {
+        closed.classList.add('hidden');
       }
       
       //monday through wednesday  open 0-130am and 6am-midnight
@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', function() {
       sunday.classList.add('hidden');
       thursday.classList.add('hidden');
       friSat.classList.add('hidden');
-      if (currentHour >= 0 && currentHour <= 1.5  && currentHour >= 6 && currentHour <= 24) {
-        closed.classList.add('hidden');
-      } else {
+      if (currentHour >= 1.5 && currentHour <= 6) {
         open.classList.add('hidden');
+      } else {
+        closed.classList.add('hidden');
       }
     }
 
@@ -61,16 +61,16 @@ document.addEventListener('DOMContentLoaded', function() {
       sunday.classList.add('hidden');
       monWed.classList.add('hidden');
       friSat.classList.add('hidden');
-      if (currentHour >= 0 && currentHour <= 1.5  && currentHour >= 4 && currentHour <= 24) {
-        closed.classList.add('hidden');
-      } else {
+      if (currentHour >= 1.5 && currentHour <= 4) {
         open.classList.add('hidden');
+      } else {
+        closed.classList.add('hidden');
       }
     }
 
     // friday and saturday open 24 hours
 
-    if (currentDay >= 5) {
+    if (currentDay >= 5 && currentDay <= 7) {
       sunday.classList.add('hidden');
       monWed.classList.add('hidden');
       thursday.classList.add('hidden');

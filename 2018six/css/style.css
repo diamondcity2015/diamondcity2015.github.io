@@ -196,8 +196,9 @@ thead  {
 }
 
 #links  {
-  
-  
+  background-color: #36C9FF;
+  border: 2px black solid;
+  padding: 2em; 
 
 }
 
@@ -244,6 +245,10 @@ thead  {
    text-align: center;
     width: 99%;
     
+}
+
+#twitter   {
+  height: 30%;
 }
 
 .bg  {
