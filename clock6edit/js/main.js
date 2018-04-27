@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var friSat = document.getElementById('fri-sat');
   var open = document.getElementById("open");
   var closed = document.getElementById("closed");
+  console.log(sunday);
 
   //var friday = document.getElementById('friday');
   //var monThurs = document.getElementById("mon-thurs");
@@ -24,30 +25,31 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function openClose() {
     //reset display each time this function runs
-    [sunday, monWed, thursday,friSat, open, closed].forEach(function(element) {
-      element.classList.remove('hidden');
-    });
+    // [sunday, monWed, thursday,friSat, open, closed].forEach(function(element) {
+    //   console.log(element);
+    //   element.classList.remove('hidden');
+    // });
 
     //sunday open 0-4am and 6am-midnight
 
     if (currentDay >= 0 && currentDay <= 1) {
-      monWed.classList.add('hidden');
-      thursday.classList.add('hidden');
-      friSat.classList.add('hidden');
-      
+      // monWed.classList.add('hidden');
+      // thursday.classList.add('hidden');
+      // friSat.classList.add('hidden');
+
       if (currentHour >= 4 && currentHour <= 6) {
         open.classList.add('hidden');
       } else {
         closed.classList.add('hidden');
       }
-      
+
       //monday through wednesday  open 0-130am and 6am-midnight
 
     }
     if (currentDay >= 1 && currentDay <= 4) {
-      sunday.classList.add('hidden');
-      thursday.classList.add('hidden');
-      friSat.classList.add('hidden');
+      // sunday.classList.add('hidden');
+      // thursday.classList.add('hidden');
+      // friSat.classList.add('hidden');
       if (currentHour >= 1.5 && currentHour <= 6) {
         open.classList.add('hidden');
       } else {
@@ -58,9 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
     //thursday open 0-130am and 4am- midnight
 
     if (currentDay >= 4 && currentDay <= 5) {
-      sunday.classList.add('hidden');
-      monWed.classList.add('hidden');
-      friSat.classList.add('hidden');
+      // sunday.classList.add('hidden');
+      // monWed.classList.add('hidden');
+      // friSat.classList.add('hidden');
       if (currentHour >= 1.5 && currentHour <= 4) {
         open.classList.add('hidden');
       } else {
@@ -71,15 +73,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // friday and saturday open 24 hours
 
     if (currentDay >= 5 && currentDay <= 7) {
-      sunday.classList.add('hidden');
-      monWed.classList.add('hidden');
-      thursday.classList.add('hidden');
-      
+      // sunday.classList.add('hidden');
+      // monWed.classList.add('hidden');
+      // thursday.classList.add('hidden');
+
       closed.classList.add('hidden');
-      
+
     }
 
-
+}
 //if (currentDay === 0 || currentDay === 6) {
    //   open.classList.add('hidden');
    //   friday.classList.add('hidden');
