@@ -1,0 +1,11 @@
+.layout-header .header-one #open,
+.layout-header .header-one #closed,
+.layout-header .header-one #friday,
+.layout-header .header-one #mon-thurs {
+  display: inline-block;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
