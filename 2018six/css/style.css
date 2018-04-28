@@ -224,20 +224,7 @@ thead  {
     font: 'Pacifico', sans-serif;
 }
 
-#open-display.open > .timerange.inactive,
-#open-display.open .days {
-     display: none;
-}
-#open-display.open > .openclosed::before {
-    content: 'Open';
-}
-#open-display.closed > .openclosed::before {
-    content: 'Closed';
-}
 
-#open-display   {
-    text-align: center;
-}
 
 
 #reservations {
@@ -249,6 +236,11 @@ thead  {
 
 #twitter   {
   height: 30%;
+}
+
+#twitterwrap   {
+  
+  width: 100%;
 }
 
 .bg  {
