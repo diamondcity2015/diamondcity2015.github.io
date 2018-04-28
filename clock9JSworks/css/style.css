@@ -1,7 +1,10 @@
 .layout-header .header-one #open,
 .layout-header .header-one #closed,
-.layout-header .header-one #friday,
-.layout-header .header-one #mon-thurs {
+.layout-header .header-one #sunday,
+.layout-header .header-one #mon-wed
+.layout-header .header-one #thursday,
+.layout-header .header-one #fri-sat,
+ {
   display: inline-block;
   color: #000;
 }
