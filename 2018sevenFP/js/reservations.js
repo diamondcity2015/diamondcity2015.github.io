@@ -1,3 +1,5 @@
+var name = $('#item').val();
+
 $('input').on('focus', function () {
 
   $('p').html('input is in focus!');
@@ -10,12 +12,17 @@ $('input').on('blur', function () {
 
 $('button').on('submit', function (event) {
 	event.preventDefault();
-	if (input === [])
-  $('p').html('Please enter a name.');
+	if (name === "")    {
+		$('p').html('Please enter a name.');
+	}
+    
 });
 
-$('button').on('click', function (event) {
+$('#formone').on('click', function (event) {
 	event.preventDefault();
-	
+	if (name == "")    {
+		$('p').html('Please enter a name.');
+	}
 });
+
 
