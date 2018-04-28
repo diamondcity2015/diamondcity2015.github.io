@@ -392,6 +392,13 @@ thead  {
 
 /* end dropdown    */
 
+#left   {
+  float: left;
+}
+
+#right   {
+  float: right;
+}
 
  /*@media only screen and (max-width: 800px) {
 
