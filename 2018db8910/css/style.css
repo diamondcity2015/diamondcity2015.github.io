@@ -43,6 +43,15 @@ section   {
     float: left;
 }
 
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+
 #background  {
      background-color: #E83F30;
     border: 2px black solid;
@@ -121,36 +130,6 @@ section   {
     
     float: left;
     width: 44%;
-}
-
-.box1   {
-  border: 1px solid black;
-    font-family: "Helvetica";
-    height: 20px;
-    margin: auto;
-    
-    width: 30%;
-}
-
-.box2  {
-  border: 1px solid black;
-    font-family: "Helvetica";
-    height: 20px;
-    margin: auto;
-    
-    width: 30%;
-}
-
-.box3  {
-  text-align: center;
-}
-
-.center  {
-    
-    border-collapse: collapse;
-    
-     
-  
 }
 
 .clearfix:after {
@@ -294,7 +273,8 @@ section   {
 .reservation-form-container {
 	position: relative;
 	height: 100%;
-	background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');
+	/*background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');*/
+  background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
 	background-size: cover;
 	background-position: center;
 }
