@@ -132,6 +132,11 @@ table, th, td {
     width: 44%;
 }
 
+.blue {
+    background-color: #36C9FF;
+    border: 2px black solid;
+}
+
 .clearfix:after {
     clear: both;
     content:' ';
