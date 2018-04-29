@@ -64,9 +64,22 @@ section   {
     width: 100%;
 }
 
+#map  {
+    height: 350px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+  
+    width: 70%;
+}
+
 #menu   {
     display: none;
     font: 'Pacifico', sans-serif;
+}
+
+#right  {
+  float:right;
 }
 
 
@@ -170,6 +183,11 @@ section   {
     border: 2px black solid;
     height: 25%;
     width: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 2px black solid;
 }
 
 /*  Clock 
