@@ -25,6 +25,10 @@ header   {
     border: 2px black solid;
 }
 
+section   {
+    float: left;
+}
+
 #button {
 
   font-family:  'Garamond', sans-serif; 
@@ -45,9 +49,19 @@ header   {
   box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
 }
 
+#left   {
+  float: left;
+}
+
+
+
 #menu   {
     display: none;
     font: 'Pacifico', sans-serif;
+}
+
+#right   {
+  float: right;
 }
 
 
