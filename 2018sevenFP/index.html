@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en" dir="ltr">
 <head>
 
-
+	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.css">-->
 	<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"	type="text/css"	href="css/app.css">
 	<link rel="stylesheet"	type="text/css"	href="css/style.css">
 	<!--<link rel="stylesheet"	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 	<title>Final Cafe Project</title>
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+	
+		<!--handlebars section for reservations-->
+		<script id="reservation-template" type="text/x-handlebars-template">
+		<tr>
+			<td>{{name}}</td>
+			<td>{{date}}</td>
+		</tr>
+	</script>
+		<!--end handlebars-->
+	
 
 	
 </head>
 <body>
+
 	
 	
 	<header>
@@ -43,6 +55,7 @@
 	<br></br>
 	<br></br>
 	<br></br>
+
 	
 	
 	
@@ -111,17 +124,20 @@
 
 	
     <div id="container" class="clearfix">
-    <form id="formone" name="form" class="clearfix" action="#" onsubmit="required()">
+    <form id="formone" class="clearfix reservation-form" action="">
     	<h3>Make a Reservation</h3> 
     	<br></br>
     <div id="left">
 		<label><strong>Name:</strong> </label>
-		<input name="names" id="name" type="text" placeholder="Name">
+		<input id="name" type="text" placeholder="Name">
+		<br></br>
+		<label><strong>Day:</strong> </label>
+		<input id="date" type="text" placeholder="Day">
 	</div>
 		
 
 
-				<div class="dropdown" id="right">
+			<!--	<div class="dropdown" id="right">
 					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
 						Select A Day
 						<span class="caret"></span>
@@ -131,12 +147,12 @@
 						<li><a>Tomorrow</a></li>
 						<li><a>The day after next</a></li>
 					</ul>
-				</div>
+				</div>-->
 		<br></br>
 		<br></br>
-		<br></br>
+		
 
-		<button type="submit" class="btn btn-primary"><strong>Confirm</strong></button>
+		<button type="submit" class="btn btn-primary" id="confirm"><strong>Confirm</strong></button>
 		<!--<label><strong>Day   :</strong>  </label>
 		<input name ="names" id="day" type="text" placeholder="Day">
 		<br></br>
@@ -151,18 +167,25 @@
 	<div id="existing" class="clearfix">
 		<h3>Existing Reservations</h3>
 		
-		<table>
+		<table class="container-fluid">
 			<thead>
-				<th>Name</th>
-				<th>Day</th>
-				<th>Cancel</th>
+				<th width="150">Name</th>
+				<th width="150">Day</th>
+				
 			</thead>
-			
-			<tr><td>John Doe</td><td>Today</td><td><button type="submit"><strong>Cancel</strong></td></tr>
-			<tr><td>Jane Doe</td><td>Today</td><td><button type="submit"><strong>Cancel</strong></td></tr>
-			
-
+			<tbody class="reservation_list"></tbody>
+		</tbody>
 		</table>
+
+						
+			
+			<!--<tr><td>John Doe</td><td>Today</td><td><button type="submit"><strong>Cancel</strong></td></tr>
+			<tr><td>Jane Doe</td><td>Today</td><td><button type="submit"><strong>Cancel</strong></td></tr>-->
+
+	
+
+		
+		
 		
 		<br></br>
 		<br></br>
@@ -170,6 +193,10 @@
 	</div>
 </div>
 	<br></br>
+
+	
+
+
 		<a name="yw"></a>
         
 	<main class="clearfix" id="cafe">
@@ -253,7 +280,8 @@
 
   <!--firebase link-->
   	<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
-
+  	<!--foundation-->
+  	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>-->
   	<!--bootstrap-->
   	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 
@@ -266,6 +294,9 @@
   	<script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   	<!--jquery cdn link-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!--handlebars cdn link-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
   
   <!--dropdown menu-->
   <script src="js/dropdown.js"></script>
@@ -273,6 +304,8 @@
   <script src="js/reservations.js"></script>
   <script src="js/main.js"></script>
   <script src="js/forms.js"></script>
+  <script src="js/app.js"></script>
+  
   
   
 

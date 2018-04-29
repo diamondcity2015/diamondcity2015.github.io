@@ -21,19 +21,20 @@
  //   }
  //  }
 
+//code below sort of works
+//==========================
 
-
-function required()
-{
-var empt = document.forms["form"]["names"].value;
-if (empt == "")
-{
-alert("Please enter a name");
-return false;
-}
-else 
-{
-alert('Reservation Accepted');
-return true; 
-}
-}
+//function required()
+//    {
+//var empt = document.forms["form"]["names"].value;
+//if (empt == "")
+// {
+//alert("Please enter a name");
+//return false;
+//  }
+// else 
+//  {
+//alert('Reservation Accepted');
+//return true; 
+//   }
+//    }
