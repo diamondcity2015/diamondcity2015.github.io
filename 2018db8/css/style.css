@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+*{
+    box-sizing:border-box;
+
+}
+
+body   {
+    margin: auto;
+    text-align: center;
+}
+
+h1  {
+   font: 1.8em 'Pacifico', sans-serif; 
+}
+
+h1, h2, h3 {
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+header   {
+    background-color: yellow;
+    border: 2px black solid;
+}
+
+#button {
+
+  font-family:  'Garamond', sans-serif; 
+  font-size: 15px;
+  
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 20%;
+  margin: 10px auto 0;
+  padding: 5px;
+  cursor: pointer;
+  
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+#menu   {
+    display: none;
+    font: 'Pacifico', sans-serif;
+}
+
+
+.clearfix:after {
+    clear: both;
+    content:' ';
+    display: table;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.dropdowns {
+    display: none;
+}
+
+.dropdowns ul {
+  
+  overflow: hidden;
+  width: 85;
+  margin: 0 auto;
+  position: relative;
+  top: -3px;
+  padding: 0;
+  
+}
+
+
+.dropdowns li {
+  
+  padding: 1px;
+}
+
+.dropdowns li:hover {
+  background-color: #dfdfdf;
+}
+
+.pacifico {
+    font:  'Pacifico', sans-serif; 
+    padding: .1em;
+    position: absolute;
+    bottom: 88%;
+    right: 41%;
+}
+
+
+.spacing {
+   padding: .5em;
+   position: relative;
+   right: 8%;
+
+} 
+
+.tom  {
+    border: 2px black solid;
+    height: 25%;
+    width: 100%;
+}
+
+
+.restaurant-pic {
+	height: 50vh;
+	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
+	background-size: cover;
+	background-position: 0 40%;
+}
+
+.restaurant-info {
+	height: 50vh;
+}
+
+.reservation {
+	height: 25vh;
+}
+
+/* add a deli pattern background*/
+.reservation-form-container {
+	position: relative;
+	height: 100%;
+	background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.reservation-form {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.restaurant-locator {
+	height: 50vh;
+}

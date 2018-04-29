@@ -120,7 +120,49 @@
 	
     <br></br>
 
-	<div class="clearfix" id="reservations">
+
+    <div id="reservation" class="container-fluid reservation clearfix">
+
+		<!-- reservation form -->
+		<div class="row reservation-form-container">
+			<div class="col-md-12 text-center reservation-form">
+				<form class="form-inline reservations">
+				  <div class="form-group">
+				    <input type="text" class="form-control reservation-name" placeholder="Jane Doe">
+				  </div>
+				  <div class="form-group">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						    Select A Day
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu reservation-day">
+						    <li><a>Today</a></li>
+						    <li><a>Tomorrow</a></li>
+						    <li><a>The day after next</a></li>
+						  </ul>
+						</div>
+				  </div>
+				  <button class="btn btn-default reservation-button">Set Reservation</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- reservations -->
+		<div id="hours">
+		<table class="table table-striped col-md-12 container-fluid">
+			<h4>Reservations</h4>
+			<thead>
+				<th>Name</th>
+				<th>Day</th>
+			</thead>
+			<tbody class="reservation-list"></tbody>
+		</table>
+	</div>
+	</div>
+</div>
+
+	<!--<div class="clearfix" id="reservations">
 
 	
     <div id="container" class="clearfix">
@@ -148,19 +190,19 @@
 						<li><a>The day after next</a></li>
 					</ul>
 				</div>-->
-		<br></br>
-		<br></br>
+		
+		
 		
 
-		<button type="submit" class="btn btn-primary" id="confirm"><strong>Confirm</strong></button>
+		<!--<button type="submit" class="btn btn-primary" id="confirm"><strong>Confirm</strong></button>
 		<!--<label><strong>Day   :</strong>  </label>
 		<input name ="names" id="day" type="text" placeholder="Day">
 		<br></br>
 		<br></br>
 		<button type="submit" class="btn btn-primary"><strong>Confirm</strong></button>-->
-		<br></br>
 		
-	</form>
+		
+	<!--</form>
 
 
 
@@ -187,11 +229,11 @@
 		
 		
 		
-		<br></br>
-		<br></br>
+	
 
-	</div>
-</div>
+	<!--</div>
+</div>-->
+	<br></br>
 	<br></br>
 
 	
@@ -283,7 +325,7 @@
   	<!--foundation-->
   	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.js"></script>-->
   	<!--bootstrap-->
-  	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
