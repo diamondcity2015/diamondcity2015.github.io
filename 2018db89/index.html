@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Monk's Café</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body data-spy="scroll" data-target=".navbar-inverse" data-offset="50">
+
+	<!-- template for reservation-list -->
+	<script id="reservation-template" type="text/x-handlebars-template">
+		<tr>
+			<td>{{name}}</td>
+			<td>{{day}}</td>
+		</tr>
+	</script>
+
+	<header>
+
+		<a name="top"></a>
+
+
+	<section class="dropdowns" id="button">
+
+		<button id="dropdownButton" type="button" class="btn btn-primary">Menu &blacktriangledown;</button>
+		<ul id="menu">
+			
+			
+			<li><a href="#hs"><strong>Hours</strong></a></li>
+			<li><a href="#res"><strong>Reservations</strong></a></li>
+			<li><a href="#yw"><strong>Come Dine With Us</strong></a></li>
+			<li><a href="#cr"><strong>Customer Reviews</strong></a></li>
+			<li><a href="#tw"><strong>Twitter Feed</strong></a></li>
+			<li><a href="#sm"><strong>Social Media</strong></a></li>
+			
+		</ul>
+
+	</section>
+
+	<h1 class="spacing">Monk's Cafe</h1>
+	<h3 class="pacifico">"The coffee shop"</h3>
+
+	<br></br>
+	<br></br>
+	<br></br>
+
+	
+	
+	
+	</header>
+	<a name="top"></a>
+
+<br></br>
+
+	<main class="clearfix" id="cafe">
+        <img class="tom" src="images/toms-restaurant.jpeg"  alt="cafe">
+    </main> 
+
+    <br></br>
+
+    <!--divide1-->
+
+     <a name="hs"></a>
+    <main class="clearfix">
+		<h1 class="red">Hours</h1>
+
+
+        
+    </main> 
+    <br></br>
+    <div id="hours">
+
+    	<script src="js/greeting.js"></script>
+  
+    
+      	<p><strong>We are....</strong></p>
+
+
+
+	<div id="open-display">
+  		<div id="open">Open</div>
+  		<div id="closed">Closed</div>
+		 </div>
+
+		
+
+		
+
+    	<h3>Hours Of Operation</h3>
+		<table>
+			<thead>
+				<th>Day</th>
+				<th>Hours</th>
+			</thead>
+			<tr><td>Sunday</td><td>6:00 am - 1:30 am</td></tr>
+			<tr><td>Monday</td><td>6:00 am - 1:30 am</td></tr>
+			<tr><td>Tuesday</td><td>6:00 am - 1:30 am</td></tr>
+			<tr><td>Wednesday</td><td>6:00 am - 1:30 am</td></tr>
+			<tr><td>Thursday</td><td>4:00 am - Friday</td></tr>
+			<tr><td>Friday</td><td>Open 24 Hours</td></tr>
+			<tr><td>Saturday</td><td>Open 24 Hours - 4:00 am</td></tr>
+			
+		</table>
+		<br></br>
+
+		</div>
+
+		<br></br>
+	<a name="res"></a>	
+
+
+    <!--divide2-->
+
+	<div id="reservation" class="container-fluid reservation">
+
+		<!-- reservation form -->
+		<div class="row reservation-form-container">
+			<div class="col-md-12 text-center reservation-form">
+				<form class="form-inline reservations">
+				  <div class="form-group">
+				    <input type="text" class="form-control reservation-name" placeholder="Jane Doe">
+				  </div>
+				  <div class="form-group">
+						<div class="dropdown">
+						  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+						    Select A Day
+						    <span class="caret"></span>
+						  </button>
+						  <ul class="dropdown-menu reservation-day">
+						    <li><a>Today</a></li>
+						    <li><a>Tomorrow</a></li>
+						    <li><a>The day after next</a></li>
+						  </ul>
+						</div>
+				  </div>
+				  <button class="btn btn-default reservation-button">Set Reservation</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- reservations -->
+		<table class="table table-striped col-md-12 container-fluid">
+			<h4>Reservations</h4>
+			<thead>
+				<th>Name</th>
+				<th>Day</th>
+			</thead>
+			<tbody class="reservation-list"></tbody>
+		</table>
+	</div>
+
+	 <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- handlebars -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+  <!-- custom js -->
+  <script src="js/main.js"></script>
+  <script src="js/dropdown.js"></script>
+
+	<!-- google maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDbt1M_Y1NT5NIZ27O1y0L-PXT5-bEIjs&callback=initMap"
+  async defer></script>
+</body>
+</html>
