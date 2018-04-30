@@ -52,7 +52,7 @@ table, th, td {
     font-family: "Helvetica";
     height: 20px;
     margin: auto;
-    
+    table-layout:fixed;
     text-align: center;
     width: 50%;
   }
@@ -119,6 +119,10 @@ table, th, td {
 #menu   {
     display: none;
     font: 'Pacifico', sans-serif;
+}
+
+#reservation   {
+  display: table;
 }
 
 #twitter   {
