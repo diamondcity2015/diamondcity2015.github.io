@@ -234,7 +234,7 @@ table, th, td {
 .yellow {
     background-color: yellow;
     border: 2px black solid;
-    padding: 2em;
+    
 }
 
 .yelp  {
@@ -270,38 +270,38 @@ table, th, td {
 	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
 	background-size: cover;
 	background-position: 0 40%;
-  text-align: center;
+  
 }
 
 .restaurant-info {
 	height: 50vh;
-  text-align: center;
+  
 }
 
 .reservation {
 	height: 25vh;
-  text-align: center;
+  
 }
 
 /* add a deli pattern background*/
 .reservation-form-container {
 	position: relative;
 	height: 100%;
-	/*background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');*/
-  background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
+	background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');
+  /*background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');*/
 	background-size: cover;
 	background-position: center;
-  text-align: center;
+  
 }
 
 .reservation-form {
 	position: absolute;
 	top: 50%;
-  text-align: center;
+  
 	transform: translateY(-50%);
 }
 
 .restaurant-locator {
 	height: 50vh;
-  text-align: center;
+  
 }
