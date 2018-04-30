@@ -274,6 +274,7 @@ table, th, td {
 
 .restaurant-info {
 	height: 50vh;
+  text-align: center;
 }
 
 .reservation {
