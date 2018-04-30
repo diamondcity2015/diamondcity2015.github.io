@@ -1,0 +1,310 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+*{
+    box-sizing:border-box;
+
+}
+
+body   {
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    border: 2px black solid;
+    width: 100%;
+}
+
+form  {
+  text-align: center;
+}
+
+h1  {
+   font: 1.8em 'Pacifico', sans-serif; 
+}
+
+h1, h2, h3 {
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+header   {
+    background-color: yellow;
+    border: 2px black solid;
+}
+
+p  {
+    margin: auto;
+    text-align: center;
+}
+
+section   {
+    float: left;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-family: "Helvetica";
+    height: 20px;
+    margin: auto;
+    table-layout:fixed;
+    text-align: center;
+    width: 50%;
+  }
+
+#background  {
+     background-color: #E83F30;
+    border: 2px black solid;
+    
+}
+
+#button {
+
+  font-family:  'Garamond', sans-serif; 
+  font-size: 15px;
+  
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 20%;
+  margin: 10px auto 0;
+  padding: 5px;
+  cursor: pointer;
+  
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+#hours   {
+    background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -o-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
+    background: -ms-linear-gradient(left, #858C07, #D1CB0A,  #F2EB0C, #F2FF0C, #F2FF5C);
+    border: 2px black solid;
+    text-align: center;
+    width: 100%;
+}
+
+#links  {
+  
+  padding: 2em; 
+}
+
+#links a {
+    border: none;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+  
+}
+
+#map  {
+    height: 350px;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+  
+    width: 70%;
+}
+
+#menu   {
+    display: none;
+    font: 'Pacifico', sans-serif;
+}
+
+#reserve  {
+  display: table;
+}
+
+#twitter   {
+  height: 30%;
+}
+
+#twitterwrap   {
+  
+  width: 100%;
+}
+
+
+.bg  {
+    
+    float: left;
+    width: 44%;
+}
+
+.blue {
+    background-color: #36C9FF;
+    border: 2px black solid;
+}
+
+.clearfix:after {
+    clear: both;
+    content:' ';
+    display: table;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.darkblue  {
+    background-color: #296AFF;
+    border: 2px black solid;
+}
+
+.dropdowns {
+    display: none;
+}
+
+.dropdowns ul {
+  
+  overflow: hidden;
+  width: 85;
+  margin: 0 auto;
+  position: relative;
+  top: -3px;
+  padding: 0;
+  
+}
+
+
+.dropdowns li {
+  
+  padding: 1px;
+}
+
+.dropdowns li:hover {
+  background-color: #dfdfdf;
+}
+
+.jerry {
+    
+    float: left;
+    padding: 2em;
+    
+}
+
+.pacifico {
+    
+    font:  'Pacifico', sans-serif; 
+    padding: .1em;
+    position: absolute;
+    bottom: 88%;
+    right: 41%;
+}
+
+.red   {
+    background-color: #E83F30;
+    border: 2px black solid;  
+    
+}
+
+.review  {
+    float:right;
+    padding: 1em;
+}
+
+.shift   {
+  
+  padding: .1em;
+  position: absolute;
+  bottom: 10%;
+  right: 35%;
+  text-align: center;
+}
+
+
+.spacing {
+   padding: .5em;
+   position: relative;
+   right: 8%;
+
+} 
+
+.tom  {
+    border: 2px black solid;
+    height: 25%;
+    width: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 2px black solid;
+    
+}
+
+.yelp  {
+    border: 2px black solid;
+    float: right;
+    padding: 1.2em;
+    width: 45%;
+}
+
+/*  Clock 
+===============================*/
+
+
+.layout-header .header-one #open,
+.layout-header .header-one #closed,
+.layout-header .header-one #sunday,
+.layout-header .header-one #mon-wed
+.layout-header .header-one #thursday,
+.layout-header .header-one #fri-sat,
+ {
+  display: inline-block;
+  color: #000;
+}
+
+.hidden {
+  display: none;
+}
+
+/*reservations   */
+
+.restaurant-pic {
+	height: 50vh;
+	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
+	background-size: cover;
+	background-position: 0 40%;
+  
+}
+
+.restaurant-info {
+	height: 50vh;
+  
+}
+
+.reservation {
+	height: 25vh;
+  
+}
+
+/* add a deli pattern background*/
+.reservation-form-container {
+	position: relative;
+	height: 100%;
+	/*background: url('http://ih1.redbubble.net/image.80745362.8983/flat,800x800,075,t.u4.jpg');*/
+  background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
+	background-size: cover;
+	background-position: center;
+  
+}
+
+.reservation-form {
+	position: absolute;
+	top: 50%;
+  
+	transform: translateY(-50%);
+}
+
+.restaurant-locator {
+	height: 50vh;
+  
+}
