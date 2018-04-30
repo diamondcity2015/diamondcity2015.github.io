@@ -19,6 +19,10 @@ footer {
     width: 100%;
 }
 
+form  {
+  text-align: center;
+}
+
 h1  {
    font: 1.8em 'Pacifico', sans-serif; 
 }
