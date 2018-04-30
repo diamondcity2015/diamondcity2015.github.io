@@ -155,7 +155,8 @@ table, th, td {
 }
 
 .darkblue  {
-    background-color: #296AFF;
+    /*background-color: #296AFF; */
+    background-color: #3b5998;
     border: 2px black solid;
 }
 
