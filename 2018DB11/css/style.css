@@ -234,6 +234,7 @@ table, th, td {
 .yellow {
     background-color: yellow;
     border: 2px black solid;
+    padding: 2em;
 }
 
 .yelp  {
@@ -293,6 +294,7 @@ table, th, td {
 .reservation-form {
 	position: absolute;
 	top: 50%;
+  text-align: center;
 	transform: translateY(-50%);
 }
 
