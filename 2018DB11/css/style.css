@@ -270,6 +270,7 @@ table, th, td {
 	background: url('https://i.ytimg.com/vi/7mphrlxJl5k/maxresdefault.jpg');
 	background-size: cover;
 	background-position: 0 40%;
+  text-align: center;
 }
 
 .restaurant-info {

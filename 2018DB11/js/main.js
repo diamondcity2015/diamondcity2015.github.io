@@ -1,9 +1,6 @@
 var reservationData = {};
 
-  //apiKey: "AIzaSyC0D9YD9P2MHebt2EbXxqldb9Z8kFMCklY",
- // authDomain: "restaurant-site.firebaseapp.com",
- // databaseURL: "https://restaurant-site.firebaseio.com",
- // storageBucket: "restaurant-site.appspot.com",
+ 
 
 // Initialize Firebase
 var config = {
