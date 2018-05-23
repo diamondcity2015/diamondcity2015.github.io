@@ -221,6 +221,11 @@ table, th, td {
     padding: 1em;
 }
 
+/*.reviews  {
+  display: column;
+  flex-direction: column;
+}  */
+
 .shift   {
   
   padding: .1em;
