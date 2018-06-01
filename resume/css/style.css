@@ -55,6 +55,10 @@ h3 {
 	text-align: center;
 }
 
+#aflac   {
+	width:  25%;
+}
+
 #onlc   {
 	background-color: white;
 }
@@ -72,6 +76,8 @@ h3 {
 	margin-right: auto;
 	text-align: center;
 }
+
+
 
 .class {
 	border: 1px black solid;
