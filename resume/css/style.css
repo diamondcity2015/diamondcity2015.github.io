@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
+*{
+    box-sizing:border-box;
+
+}
+
+
+
 body  {
   background: -webkit-linear-gradient(left, #858C07, #D1CB0A, #F2EB0C, #F2FF0C, #F2FF5C);
   background: -moz-linear-gradient(left, #858C07, #D1CB0A ,  #F2EB0C, #F2FF0C, #F2FF5C);
@@ -94,4 +101,14 @@ h3 {
 	font-size: 0;
 	height: 0;
 	visibility: hidden;
+}
+
+.float1   {
+	border: black 1px solid;
+	float: left;
+}
+
+.float2   {
+	border: black 1px solid;
+	float: right;
 }
